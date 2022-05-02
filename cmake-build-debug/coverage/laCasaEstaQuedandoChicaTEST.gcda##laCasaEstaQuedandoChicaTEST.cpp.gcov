@@ -1,0 +1,724 @@
+        -:    0:Source:/Users/delficomerso/template-alumnos 2/test/laCasaEstaQuedandoChicaTEST.cpp
+        -:    0:Graph:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/test/laCasaEstaQuedandoChicaTEST.gcno
+        -:    0:Data:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/test/laCasaEstaQuedandoChicaTEST.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "../definiciones.h"
+        -:    2:#include "../Funciones_TPI.h"
+        -:    3:#include "../ejercicios.h"
+        -:    4:#include "gtest/gtest.h"
+        -:    5:#include <iostream>
+        -:    6:#include <string>
+        -:    7:#include <math.h>
+        -:    8:
+        -:    9:using namespace std;
+        -:   10:
+        -:   11:#define UMBRAL 0.0001
+        -:   12:
+        -:   13:
+function __cxx_global_var_init called 1 returned 100% blocks executed 53%
+function _ZN66laCasaEstaQuedandoChicaTEST_hacinamientoCriticoTodosIgualAUno_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN66laCasaEstaQuedandoChicaTEST_hacinamientoCriticoTodosIgualAUno_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN66laCasaEstaQuedandoChicaTEST_hacinamientoCriticoTodosIgualAUno_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN66laCasaEstaQuedandoChicaTEST_hacinamientoCriticoTodosIgualAUno_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN66laCasaEstaQuedandoChicaTEST_hacinamientoCriticoTodosIgualAUno_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN66laCasaEstaQuedandoChicaTEST_hacinamientoCriticoTodosIgualAUno_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   14:TEST(laCasaEstaQuedandoChicaTEST, hacinamientoCriticoTodosIgualAUno) {
+        1:   14-block  0
+        1:   14-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   14-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   14-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   14-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   14-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   14-block  6
+    $$$$$:   14-block  7
+    $$$$$:   14-block  8
+    $$$$$:   14-block  9
+    $$$$$:   14-block 10
+    $$$$$:   14-block 11
+    $$$$$:   14-block 12
+    $$$$$:   14-block 13
+    $$$$$:   14-block 14
+    $$$$$:   14-block 15
+    $$$$$:   14-block 16
+    $$$$$:   14-block 17
+    $$$$$:   14-block 18
+    $$$$$:   14-block 19
+    $$$$$:   14-block 20
+        -:   15:
+        -:   16://                                                    Región\ +500 /Tipo
+        -:   17://                                                       v  v  v
+    #####:   18:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  1,  0,  1,  3,  1,  2},
+    $$$$$:   18-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   18-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   18-block  2
+    $$$$$:   18-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   18-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   18-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   18-block  6
+    $$$$$:   18-block  7
+    $$$$$:   18-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   18-block  9
+    $$$$$:   18-block 10
+    #####:   19:                {22866, 2020,   3,  317157, 627217, 2,  40, 0,  1,  2,  1,  2},
+    $$$$$:   19-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   20:                {20957, 2020,   3,  313965, 623297, 1,  41, 0,  1,  3,  1,  2},
+    $$$$$:   20-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   21:                {22110, 2020,   3,  319611, 629088, 3,  42, 0,  1,  3,  1,  2},
+    $$$$$:   21-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   22:                {22111, 2020,   3,  319611, 629088, 3,  43, 0,  1,  3,  1,  2},
+    $$$$$:   22-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   23:                {22112, 2020,   3,  319611, 629088, 3,  44, 0,  1,  3,  1,  2}};
+    $$$$$:   23-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   24:
+    #####:   25:    eph_i ti = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:   25-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   25-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   25-block  2
+    $$$$$:   25-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   25-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   25-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   25-block  6
+    $$$$$:   25-block  7
+    $$$$$:   25-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   25-block  9
+    #####:   26:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   26-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   27:                {20957, 2020,   3,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   27-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   28:                {20957, 2020,   4,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   28-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   29:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:   29-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   30:                {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   30-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   31:                {22866, 2020,   3,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   31-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   32:                {22866, 2020,   4,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   32-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   33:                {22110, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   33-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   34:                {22110, 2020,   2,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   34-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   35:                {22110, 2020,   3,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   35-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   36:                {22110, 2020,   4,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   36-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   37:                {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   37-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   38:                {22114, 2020,   2,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   38-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   39:                {22114, 2020,   3,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   39-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   40:                {22114, 2020,   4,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   40-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   41:                {22111, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   41-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   42:                {22111, 2020,   2,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   42-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   43:                {22111, 2020,   3,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   43-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   44:                {22111, 2020,   4,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   44-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   45:                {22112, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   45-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   46:                {22112, 2020,   2,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   46-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   47:                {22112, 2020,   3,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   47-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   48:                {22112, 2020,   4,  0,  3,  1,  18, 0,  0,  20000,  10}
+    $$$$$:   48-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   49:    };
+        -:   50:
+    #####:   51:    EXPECT_TRUE(esEncuestaValida(th, ti));
+    $$$$$:   51-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   51-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   51-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   51-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   51-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   51-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   51-block  6
+    $$$$$:   51-block  7
+    $$$$$:   51-block  8
+    $$$$$:   51-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   51-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   51-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   51-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   51-block 13
+    $$$$$:   51-block 14
+    $$$$$:   51-block 15
+    $$$$$:   51-block 16
+    $$$$$:   51-block 17
+        -:   52:
+    #####:   53:    vector<pair<int,float>> esperado = {make_pair(1,1.0),
+    $$$$$:   53-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   53-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:   54:                                        make_pair(40, 1.0),
+    $$$$$:   54-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   55:                                        make_pair(41, 1.0),
+    $$$$$:   55-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   56:                                        make_pair(42,1.0),
+    $$$$$:   56-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   57:                                        make_pair(43,1.0),
+    $$$$$:   57-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   58:                                        make_pair(44,1.0)};
+    $$$$$:   58-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   59:    vector<pair<int,float>> resultado = laCasaEstaQuedandoChica(th, ti);
+    $$$$$:   59-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   59-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   59-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   59-block  3
+    $$$$$:   59-block  4
+        -:   60:
+    #####:   61:    int i=0;
+    #####:   62:    while( i < 6 ) {
+    $$$$$:   62-block  0
+    $$$$$:   62-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   62-block  2
+    #####:   63:        EXPECT_EQ( esperado[i].first, resultado[i].first );
+    $$$$$:   63-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   63-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   63-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   63-block  3
+    $$$$$:   63-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   63-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   63-block  6
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   63-block  7
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   63-block  8
+    $$$$$:   63-block  9
+    $$$$$:   63-block 10
+    $$$$$:   63-block 11
+    #####:   64:        EXPECT_TRUE(flotante_valido(esperado[i].second, resultado[i].second, UMBRAL) );
+    $$$$$:   64-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   64-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   64-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   64-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   64-block  4
+    $$$$$:   64-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   64-block  6
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   64-block  7
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   64-block  8
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   64-block  9
+    $$$$$:   64-block 10
+    $$$$$:   64-block 11
+    $$$$$:   64-block 12
+    $$$$$:   64-block 13
+    #####:   65:        i++;
+        -:   66:    }
+    #####:   67:}
+    $$$$$:   67-block  0
+    $$$$$:   67-block  1
+    $$$$$:   67-block  2
+    $$$$$:   67-block  3
+    $$$$$:   67-block  4
+    $$$$$:   67-block  5
+    $$$$$:   67-block  6
+    $$$$$:   67-block  7
+    $$$$$:   67-block  8
+    $$$$$:   67-block  9
+    $$$$$:   67-block 10
+    $$$$$:   67-block 11
+    $$$$$:   67-block 12
+    $$$$$:   67-block 13
+    $$$$$:   67-block 14
+    $$$$$:   67-block 15
+    $$$$$:   67-block 16
+    $$$$$:   67-block 17
+        -:   68:
+function __cxx_global_var_init.38 called 1 returned 100% blocks executed 53%
+function _ZN47laCasaEstaQuedandoChicaTEST_dividirPorCero_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN47laCasaEstaQuedandoChicaTEST_dividirPorCero_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN47laCasaEstaQuedandoChicaTEST_dividirPorCero_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN47laCasaEstaQuedandoChicaTEST_dividirPorCero_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN47laCasaEstaQuedandoChicaTEST_dividirPorCero_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN47laCasaEstaQuedandoChicaTEST_dividirPorCero_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   69:TEST(laCasaEstaQuedandoChicaTEST, dividirPorCero) {
+        1:   69-block  0
+        1:   69-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   69-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   69-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   69-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   69-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   69-block  6
+    $$$$$:   69-block  7
+    $$$$$:   69-block  8
+    $$$$$:   69-block  9
+    $$$$$:   69-block 10
+    $$$$$:   69-block 11
+    $$$$$:   69-block 12
+    $$$$$:   69-block 13
+    $$$$$:   69-block 14
+    $$$$$:   69-block 15
+    $$$$$:   69-block 16
+    $$$$$:   69-block 17
+    $$$$$:   69-block 18
+    $$$$$:   69-block 19
+    $$$$$:   69-block 20
+        -:   70:
+    #####:   71:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  1,  1,  1,  3,  1,  2}, // Aglomerado de > 500.000 personas
+    $$$$$:   71-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   71-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   71-block  2
+    $$$$$:   71-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   71-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   71-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   71-block  6
+    $$$$$:   71-block  7
+    $$$$$:   71-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   71-block  9
+    $$$$$:   71-block 10
+    #####:   72:                {22866, 2020,   3,  317157, 627217, 2,  40, 0,  1,  2,  1,  2}, // Región con dos hogares target,
+    $$$$$:   72-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   73:                {22867, 2020,   3,  317157, 627217, 2,  40, 0,  1,  2,  2,  2}, // Uno con HC y el otro no
+    $$$$$:   73-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   74:                {20957, 2020,   3,  313965, 623297, 1,  41, 0,  1,  3,  1,  2},
+    $$$$$:   74-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   75:                {22110, 2020,   3,  319611, 629088, 3,  42, 0,  2,  3,  1,  2}, // Departamento
+    $$$$$:   75-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   76:                //              {22111, 2020,   3,  319611, 629088, 3,  43, 0,  1,  3,  1,  2}, Región sin hogares (?)
+    #####:   77:                {22112, 2020,   3,  319611, 629088, 3,  44, 0,  1,  3,  1,  2}};
+    $$$$$:   77-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   78:
+    #####:   79:    eph_i ti = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:   79-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   79-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   79-block  2
+    $$$$$:   79-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   79-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   79-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   79-block  6
+    $$$$$:   79-block  7
+    $$$$$:   79-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   79-block  9
+    #####:   80:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   80-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   81:                {20957, 2020,   3,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   81-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   82:                {20957, 2020,   4,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   82-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   83:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:   83-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   84:                {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   84-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   85:                {22866, 2020,   3,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   85-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   86:                {22866, 2020,   4,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   86-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   87:                {22867, 2020,   1,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   87-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   88:                {22867, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   88-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   89:                {22867, 2020,   3,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   89-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   90:                {22110, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   90-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   91:                {22110, 2020,   2,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   91-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   92:                {22110, 2020,   3,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   92-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   93:                {22110, 2020,   4,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   93-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   94:                {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   94-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   95:                {22114, 2020,   2,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   95-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   96:                {22114, 2020,   3,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   96-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   97:                {22114, 2020,   4,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   97-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   98:                {22111, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   98-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   99:                {22111, 2020,   2,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:   99-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  100:                {22111, 2020,   3,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:  100-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  101:                {22111, 2020,   4,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:  101-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  102:                {22112, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:  102-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  103:                {22112, 2020,   2,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:  103-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  104:                {22112, 2020,   3,  0,  3,  1,  18, 0,  0,  20000,  10},
+    $$$$$:  104-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  105:                {22112, 2020,   4,  0,  3,  1,  18, 0,  0,  20000,  10}
+    $$$$$:  105-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  106:    };
+        -:  107:
+    #####:  108:    vector<pair<int,float>> esperado = {make_pair(1,0.0),
+    $$$$$:  108-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  108-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  109:                                        make_pair(40, 0.5),
+    $$$$$:  109-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  110:                                        make_pair(41, 1.0),
+    $$$$$:  110-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  111:                                        make_pair(42,0.0),
+    $$$$$:  111-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  112:                                        make_pair(43,0.0),
+    $$$$$:  112-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  113:                                        make_pair(44,1.0)};
+    $$$$$:  113-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  114:    vector<pair<int,float>> resultado = laCasaEstaQuedandoChica(th, ti);
+    $$$$$:  114-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  114-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  114-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  114-block  3
+    $$$$$:  114-block  4
+        -:  115:
+    #####:  116:    int i=0;
+    #####:  117:    while( i < 6 ) {
+    $$$$$:  117-block  0
+    $$$$$:  117-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  117-block  2
+    #####:  118:        EXPECT_EQ( esperado[i].first, resultado[i].first );
+    $$$$$:  118-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  118-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  118-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  118-block  3
+    $$$$$:  118-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  118-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  118-block  6
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  118-block  7
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  118-block  8
+    $$$$$:  118-block  9
+    $$$$$:  118-block 10
+    $$$$$:  118-block 11
+    #####:  119:        EXPECT_EQ( true, flotante_valido(esperado[i].second, resultado[i].second, UMBRAL) );
+    $$$$$:  119-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  119-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  119-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  119-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  119-block  4
+    $$$$$:  119-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  119-block  6
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  119-block  7
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  119-block  8
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  119-block  9
+    $$$$$:  119-block 10
+    $$$$$:  119-block 11
+    $$$$$:  119-block 12
+    #####:  120:        i++;
+        -:  121:    }
+    #####:  122:}
+    $$$$$:  122-block  0
+    $$$$$:  122-block  1
+    $$$$$:  122-block  2
+    $$$$$:  122-block  3
+    $$$$$:  122-block  4
+    $$$$$:  122-block  5
+    $$$$$:  122-block  6
+    $$$$$:  122-block  7
+    $$$$$:  122-block  8
+    $$$$$:  122-block  9
+    $$$$$:  122-block 10
+    $$$$$:  122-block 11
+    $$$$$:  122-block 12

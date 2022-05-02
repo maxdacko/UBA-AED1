@@ -1,0 +1,995 @@
+        -:    0:Source:/Users/delficomerso/template-alumnos 2/auxiliares.cpp
+        -:    0:Graph:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/auxiliares.gcno
+        -:    0:Data:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/auxiliares.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "definiciones.h"
+        -:    2:#include "auxiliares.h"
+        -:    3:#include "gtest/gtest.h"
+        -:    4:#include "ejercicios.h"
+        -:    5:
+        -:    6://auxiliares Generales
+function _Z8enRegionRNSt3__16vectorIiNS_9allocatorIiEEEEi called 0 returned 0% blocks executed 0%
+    #####:    7:bool enRegion (hogar &h, dato region){
+    $$$$$:    7-block  0
+    #####:    8:    return h[REGION]== region;
+    $$$$$:    8-block  0
+        -:    9:}
+        -:   10:
+function _Z6esCasaRNSt3__16vectorIiNS_9allocatorIiEEEE called 0 returned 0% blocks executed 0%
+    #####:   11:bool esCasa (hogar &h){
+    $$$$$:   11-block  0
+    #####:   12:    return h[IV1]==CASA;
+    $$$$$:   12-block  0
+        -:   13:}
+        -:   14:
+function _Z14menos500000HabRNSt3__16vectorIiNS_9allocatorIiEEEE called 0 returned 0% blocks executed 0%
+    #####:   15:bool menos500000Hab (hogar &h){
+    $$$$$:   15-block  0
+    #####:   16:    return h[MAS_500]==0;
+    $$$$$:   16-block  0
+        -:   17:}
+        -:   18:
+function _Z18cantidadHabitantesRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEERS3_ called 0 returned 0% blocks executed 0%
+    #####:   19:int cantidadHabitantes(eph_i &ti, hogar &h) {
+    $$$$$:   19-block  0
+    #####:   20:    int res = 0;
+    #####:   21:    for (int i = 0; i < ti.size(); i++) {
+    $$$$$:   21-block  0
+    $$$$$:   21-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   21-block  2
+    #####:   22:        if (ti[i][INDCODUSU]==h[HOGCODUSU]) {
+    $$$$$:   22-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   23:            res++;
+    #####:   24:        }
+    $$$$$:   24-block  0
+    #####:   25:    }
+    $$$$$:   25-block  0
+    #####:   26:    return res;
+    $$$$$:   26-block  0
+        -:   27:}
+        -:   28:
+function _Z19cantidadDormitoriosRNSt3__16vectorIiNS_9allocatorIiEEEE called 0 returned 0% blocks executed 0%
+    #####:   29:int cantidadDormitorios(hogar &h) {
+    $$$$$:   29-block  0
+    #####:   30:    return h[II2];
+    $$$$$:   30-block  0
+        -:   31:}
+        -:   32:
+function _Z17casaODepartamentoRNSt3__16vectorIiNS_9allocatorIiEEEE called 0 returned 0% blocks executed 0%
+    #####:   33:bool casaODepartamento(hogar &h){
+    $$$$$:   33-block  0
+    #####:   34:    return (h[IV1]==1||h[IV1]==2);
+    $$$$$:   34-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   34-block  1
+    $$$$$:   34-block  2
+        -:   35:}
+        -:   36:
+        -:   37:
+function _Z12ciudadGrandeRNSt3__16vectorIiNS_9allocatorIiEEEE called 0 returned 0% blocks executed 0%
+    #####:   38:bool ciudadGrande(hogar &h){
+    $$$$$:   38-block  0
+    #####:   39:    return h[MAS_500]==1;
+    $$$$$:   39-block  0
+        -:   40:}
+        -:   41:
+function _Z11hogarDelIndRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEERS3_ called 0 returned 0% blocks executed 0%
+    #####:   42:hogar hogarDelInd(eph_h &th, individuo &i){
+    $$$$$:   42-block  0
+    #####:   43:    hogar res;
+    #####:   44:    for(int h=0;h<th.size();h++)
+    $$$$$:   44-block  0
+    $$$$$:   44-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   44-block  2
+    #####:   45:        if(i[INDCODUSU]==th[h][HOGCODUSU]){
+    $$$$$:   45-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   45-block  1
+    #####:   46:            res=th[h];
+    $$$$$:   46-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   47:        }
+    $$$$$:   47-block  0
+    #####:   48:    return res;
+    #####:   49:}
+    $$$$$:   49-block  0
+    $$$$$:   49-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   49-block  2
+    $$$$$:   49-block  3
+    $$$$$:   49-block  4
+        -:   50:
+function _Z20indiceEnTablaHogaresRNSt3__16vectorIiNS_9allocatorIiEEEERNS0_IS3_NS1_IS3_EEEE called 0 returned 0% blocks executed 0%
+    #####:   51:int indiceEnTablaHogares(individuo &ind, eph_h &th){
+    $$$$$:   51-block  0
+    #####:   52:    int res = -1;
+    #####:   53:    for (int i = 0; i<th.size(); i++) {
+    $$$$$:   53-block  0
+    $$$$$:   53-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   53-block  2
+    #####:   54:        if (th[i][HOGCODUSU] == ind[INDCODUSU]){
+    $$$$$:   54-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   55:            res = i;
+    #####:   56:        }
+    $$$$$:   56-block  0
+    #####:   57:    }
+    $$$$$:   57-block  0
+    #####:   58:    return res;
+    $$$$$:   58-block  0
+        -:   59:}
+        -:   60:
+        -:   61://auxiliares problema 1
+function _Z9NoEsVaciaNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEE called 2 returned 100% blocks executed 100%
+        2:   62:bool NoEsVacia(vector<vector<dato>> m){
+        2:   63:    return m.size()>0;
+        2:   63-block  0
+        2:   63-block  1
+        -:   64:}
+        -:   65:
+function _Z8esMatrizRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEE called 2 returned 100% blocks executed 88%
+        2:   66:bool esMatriz (vector<vector<dato>> &m){
+        2:   66-block  0
+       28:   67:    for(int i=1;i<m.size();i++){
+        2:   67-block  0
+       28:   67-block  1
+branch  0 taken 26
+branch  1 taken 2
+       26:   67-block  2
+       26:   68:        if(m[i].size() != m[0].size()){
+       26:   68-block  0
+branch  0 taken 0
+branch  1 taken 26
+    #####:   69:            return false;
+    $$$$$:   69-block  0
+        -:   70:        }
+       26:   71:    }
+       26:   71-block  0
+        2:   72:    return true;
+        2:   72-block  0
+        2:   73:}
+        2:   73-block  0
+        -:   74:
+function _Z21cantCorrectaColumnasIRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEE called 1 returned 100% blocks executed 75%
+        1:   75:bool cantCorrectaColumnasI(eph_i &ti){
+        1:   75-block  0
+        1:   76:    for(int i=0;i<ti.size();i++){
+        1:   76-block  0
+        1:   76-block  1
+branch  0 taken 1
+branch  1 taken 0
+    $$$$$:   76-block  2
+        1:   77:        if(ti[i].size()!=cantidadItemsIndividuo){
+        1:   77-block  0
+branch  0 taken 0
+branch  1 taken 1
+    #####:   78:            return false;
+    $$$$$:   78-block  0
+        -:   79:    }
+        1:   80:    return true;
+        1:   80-block  0
+        -:   81:    }
+        1:   82:}
+        1:   82-block  0
+        -:   83:
+function _Z21cantCorrectaColumnasHRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEE called 1 returned 100% blocks executed 88%
+        1:   84:bool cantCorrectaColumnasH(eph_h &th){
+        1:   84-block  0
+       12:   85:    for(int h=0;h<th.size();h++){
+        1:   85-block  0
+       12:   85-block  1
+branch  0 taken 11
+branch  1 taken 1
+       11:   85-block  2
+       11:   86:        if(th[h].size()!=cantidadItemsHogar){
+       11:   86-block  0
+branch  0 taken 0
+branch  1 taken 11
+    #####:   87:            return false;
+    $$$$$:   87-block  0
+        -:   88:        }
+       11:   89:    }
+       11:   89-block  0
+        1:   90:    return true;
+        1:   90-block  0
+        1:   91:}
+        1:   91-block  0
+        -:   92:
+function _Z25noHayIndividuosSinHogaresRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES6_ called 1 returned 100% blocks executed 93%
+        1:   93:bool noHayIndividuosSinHogares(eph_h &th, eph_i &ti){
+        1:   93-block  0
+        1:   94:    int aux=0;
+       18:   95:    for(int i=0;i<ti.size();i++){
+        1:   95-block  0
+       18:   95-block  1
+branch  0 taken 17
+branch  1 taken 1
+       17:   95-block  2
+      204:   96:        for(int h=0;h<th.size();h++){
+       17:   96-block  0
+      204:   96-block  1
+branch  0 taken 187
+branch  1 taken 17
+      187:   96-block  2
+      187:   97:            if(th[h][HOGCODUSU]==ti[i][INDCODUSU]){
+      187:   97-block  0
+branch  0 taken 17
+branch  1 taken 170
+       17:   98:                aux++;
+       17:   99:            }
+       17:   99-block  0
+      187:  100:        }
+      187:  100-block  0
+       17:  101:    }
+       17:  101-block  0
+        1:  102:    if(aux==ti.size()){
+        1:  102-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:  103:        return true;
+        1:  103-block  0
+        -:  104:    }else{
+    #####:  105:        return false;
+    $$$$$:  105-block  0
+        -:  106:    }
+        1:  107:}
+        1:  107-block  0
+        -:  108:
+function _Z25noHayHogaresSinIndividuosRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES6_ called 1 returned 100% blocks executed 93%
+        1:  109:bool noHayHogaresSinIndividuos(eph_h &th, eph_i &ti){
+        1:  109-block  0
+        1:  110:    int aux=0;
+       12:  111:    for(int h=0;h<th.size();h++){
+        1:  111-block  0
+       12:  111-block  1
+branch  0 taken 11
+branch  1 taken 1
+       11:  111-block  2
+      198:  112:        for(int i=0;i<ti.size();i++){
+       11:  112-block  0
+      198:  112-block  1
+branch  0 taken 187
+branch  1 taken 11
+      187:  112-block  2
+      187:  113:            if(th[h][HOGCODUSU]==ti[i][INDCODUSU]){
+      187:  113-block  0
+branch  0 taken 17
+branch  1 taken 170
+       17:  114:                aux++;
+       17:  115:            }
+       17:  115-block  0
+      187:  116:        }
+      187:  116-block  0
+       11:  117:    }
+       11:  117-block  0
+        1:  118:    if(aux==ti.size()){
+        1:  118-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:  119:        return true;
+        1:  119-block  0
+        -:  120:    }else{
+    #####:  121:        return false;
+    $$$$$:  121-block  0
+        -:  122:    }
+        1:  123:}
+        1:  123-block  0
+        -:  124:
+function _Z21noHayHogaresRepetidosRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEE called 1 returned 100% blocks executed 92%
+        1:  125:bool noHayHogaresRepetidos(eph_h &th){
+        1:  125-block  0
+       12:  126:    for(int i=0; i<th.size();i++){
+        1:  126-block  0
+       12:  126-block  1
+branch  0 taken 11
+branch  1 taken 1
+       11:  126-block  2
+      132:  127:        for(int j=0; j<th.size();j++){
+       11:  127-block  0
+      132:  127-block  1
+branch  0 taken 121
+branch  1 taken 11
+      121:  127-block  2
+      121:  128:            if(i!=j && th[i][HOGCODUSU]==th[j][HOGCODUSU]){
+      121:  128-block  0
+branch  0 taken 110
+branch  1 taken 11
+      110:  128-block  1
+branch  2 taken 0
+branch  3 taken 110
+    #####:  129:                return false;
+    $$$$$:  129-block  0
+        -:  130:            }
+      121:  131:        }
+      121:  131-block  0
+       11:  132:    }
+       11:  132-block  0
+        1:  133:    return true;
+        1:  133-block  0
+        1:  134:}
+        1:  134-block  0
+        -:  135:
+function _Z24noHayIndividuosRepetidosRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEE called 1 returned 100% blocks executed 93%
+        1:  136:bool noHayIndividuosRepetidos(eph_i &ti){
+        1:  136-block  0
+       18:  137:    for(int i=0; i<ti.size();i++){
+        1:  137-block  0
+       18:  137-block  1
+branch  0 taken 17
+branch  1 taken 1
+       17:  137-block  2
+      306:  138:        for(int j=0; j<ti.size();j++){
+       17:  138-block  0
+      306:  138-block  1
+branch  0 taken 289
+branch  1 taken 17
+      289:  138-block  2
+      289:  139:            if(i!=j && ti[i][INDCODUSU]==ti[j][INDCODUSU] && ti[i][COMPONENTE]==ti[j][COMPONENTE]){
+      289:  139-block  0
+branch  0 taken 272
+branch  1 taken 17
+      272:  139-block  1
+branch  2 taken 14
+branch  3 taken 258
+       14:  139-block  2
+branch  4 taken 0
+branch  5 taken 14
+    #####:  140:                return false;
+    $$$$$:  140-block  0
+        -:  141:            }
+      289:  142:        }
+      289:  142-block  0
+       17:  143:    }
+       17:  143-block  0
+        1:  144:    return true;
+        1:  144-block  0
+        1:  145:}
+        1:  145-block  0
+        -:  146:
+function _Z18mismoAñoTrimestreNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES5_ called 1 returned 100% blocks executed 88%
+        1:  147:bool mismoAñoTrimestre(eph_h th, eph_i ti){
+        1:  148:    dato año=ti[0][INDANIO];
+        1:  148-block  0
+        1:  149:    dato trimestre=ti[0][INDTRIMESTRE];
+       18:  150:    for(int i=0; i<ti.size(); i++){
+        1:  150-block  0
+       18:  150-block  1
+branch  0 taken 17
+branch  1 taken 1
+       17:  150-block  2
+       17:  151:        if(ti[i][INDANIO]!=año ||ti[i][INDTRIMESTRE]!=trimestre){
+       17:  151-block  0
+branch  0 taken 17
+branch  1 taken 0
+       17:  151-block  1
+branch  2 taken 0
+branch  3 taken 17
+    #####:  152:            return false;
+    $$$$$:  152-block  0
+        -:  153:        }
+       17:  154:    }
+       17:  154-block  0
+       12:  155:    for(int h=0;h<th.size(); h++){
+        1:  155-block  0
+       12:  155-block  1
+branch  0 taken 11
+branch  1 taken 1
+       11:  155-block  2
+       11:  156:        if(th[h][HOGANIO]!=año || th[h][HOGTRIMESTRE]!=trimestre){
+       11:  156-block  0
+branch  0 taken 11
+branch  1 taken 0
+       11:  156-block  1
+branch  2 taken 0
+branch  3 taken 11
+    #####:  157:            return false;
+    $$$$$:  157-block  0
+        -:  158:        }
+       11:  159:    }
+       11:  159-block  0
+        1:  160:    return true;
+        1:  160-block  0
+        1:  161:}
+        1:  161-block  0
+        -:  162:
+function _Z10menos21HabRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES6_ called 1 returned 100% blocks executed 93%
+        1:  163:bool menos21Hab(eph_h &th, eph_i &ti){
+        1:  163-block  0
+       12:  164:    for(int h=0;h<th.size();h++){
+        1:  164-block  0
+       12:  164-block  1
+branch  0 taken 11
+branch  1 taken 1
+       11:  164-block  2
+       11:  165:        int i=0;
+       11:  166:        int habitantes =0;
+      198:  167:        while(i<ti.size() && habitantes <21){
+       11:  167-block  0
+      198:  167-block  1
+branch  0 taken 187
+branch  1 taken 11
+      187:  167-block  2
+      198:  167-block  3
+branch  2 taken 187
+branch  3 taken 11
+      187:  167-block  4
+      187:  168:            if(th[h][HOGCODUSU]==ti[i][INDCODUSU]){
+      187:  168-block  0
+branch  0 taken 17
+branch  1 taken 170
+       17:  169:                habitantes++;
+       17:  170:            }
+       17:  170-block  0
+      187:  171:            i++;
+        -:  172:        }
+       11:  173:        if (habitantes==21){
+       11:  173-block  0
+branch  0 taken 0
+branch  1 taken 11
+    #####:  174:            return false;
+    $$$$$:  174-block  0
+        -:  175:        }
+       11:  176:    }
+       11:  176-block  0
+        1:  177:    return true;
+        1:  177-block  0
+        1:  178:}
+        1:  178-block  0
+        -:  179:
+        -:  180:
+function _Z25cantidadValidaDormitoriosRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES6_ called 1 returned 100% blocks executed 88%
+        1:  181:bool cantidadValidaDormitorios(eph_h &th, eph_i &ti){
+        1:  181-block  0
+       12:  182:    for(int h=0;h<th.size();h++){
+        1:  182-block  0
+       12:  182-block  1
+branch  0 taken 11
+branch  1 taken 1
+       11:  182-block  2
+       11:  183:        if(th[h][IV2]<th[h][II2]){
+       11:  183-block  0
+branch  0 taken 0
+branch  1 taken 11
+    #####:  184:            return false;
+    $$$$$:  184-block  0
+        -:  185:        }
+       11:  186:    }
+       11:  186-block  0
+        1:  187:    return true;
+        1:  187-block  0
+        1:  188:}
+        1:  188-block  0
+        -:  189:
+function _Z15valoresEnRangoHRNSt3__16vectorIiNS_9allocatorIiEEEE called 11 returned 100% blocks executed 88%
+       11:  190:bool valoresEnRangoH(hogar &h){
+       11:  190-block  0
+       22:  191:    return 0 < h[HOGCODUSU]
+       11:  191-block  0
+       11:  192:    && 0 < h[HOGTRIMESTRE] && h[HOGTRIMESTRE] <= 4
+       11:  192-block  0
+branch  0 taken 11
+branch  1 taken 0
+       11:  192-block  1
+branch  2 taken 11
+branch  3 taken 0
+       11:  193:    && 0 < h[II7] && h[II7] <= 3
+       11:  193-block  0
+branch  0 taken 11
+branch  1 taken 0
+       11:  193-block  1
+branch  2 taken 11
+branch  3 taken 0
+       11:  194:    && (h[REGION] == 1 || (40 <= h[REGION] && h[REGION] <= 44))
+       11:  194-block  0
+branch  0 taken 11
+branch  1 taken 0
+       11:  194-block  1
+branch  2 taken 0
+branch  3 taken 11
+    $$$$$:  194-block  2
+branch  4 never executed
+branch  5 never executed
+       11:  195:    && 0 <= h[MAS_500] && h[MAS_500] <= 1
+    $$$$$:  195-block  0
+branch  0 never executed
+branch  1 never executed
+       11:  195-block  1
+branch  2 taken 11
+branch  3 taken 0
+       11:  196:    && 0 < h[IV1] && h[IV1] <= 5
+       11:  196-block  0
+branch  0 taken 11
+branch  1 taken 0
+       11:  196-block  1
+branch  2 taken 11
+branch  3 taken 0
+       11:  197:    && 0 < h[IV2]
+       11:  197-block  0
+branch  0 taken 11
+branch  1 taken 0
+       11:  198:    && 0 < h[II2]
+       11:  198-block  0
+branch  0 taken 11
+branch  1 taken 0
+       11:  199:    && 1 <= h[II3] && h[II3] <= 2;
+       11:  199-block  0
+branch  0 taken 11
+branch  1 taken 0
+       11:  199-block  1
+branch  2 taken 11
+branch  3 taken 0
+       11:  199-block  2
+        -:  200:}
+        -:  201:
+function _Z15valoresHogRangoRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEE called 1 returned 100% blocks executed 90%
+        1:  202:bool valoresHogRango(eph_h &th){
+        1:  202-block  0
+        1:  203:    bool res=true;
+       12:  204:    for(int h=0; h<th.size() && res;h++){
+        1:  204-block  0
+       12:  204-block  1
+branch  0 taken 11
+branch  1 taken 1
+       11:  204-block  2
+       12:  204-block  3
+branch  2 taken 11
+branch  3 taken 1
+       11:  204-block  4
+       11:  205:        if(!valoresEnRangoH(th[h])){
+       11:  205-block  0
+branch  0 taken 0
+branch  1 taken 11
+    #####:  206:            res=false;
+    #####:  207:        }
+    $$$$$:  207-block  0
+       11:  208:    }
+       11:  208-block  0
+        1:  209:    return res;
+        1:  209-block  0
+        -:  210:}
+        -:  211:
+function _Z15valoresEnRangoIRNSt3__16vectorIiNS_9allocatorIiEEEE called 17 returned 100% blocks executed 100%
+       17:  212:bool valoresEnRangoI(individuo &i){
+       17:  212-block  0
+       34:  213:    return 0 < i[INDCODUSU]
+       17:  213-block  0
+       17:  214:    && 0 < i[COMPONENTE]
+       17:  214-block  0
+branch  0 taken 17
+branch  1 taken 0
+       17:  215:    && 0 < i[INDTRIMESTRE] && i[INDTRIMESTRE] <= 4
+       17:  215-block  0
+branch  0 taken 17
+branch  1 taken 0
+       17:  215-block  1
+branch  2 taken 17
+branch  3 taken 0
+       17:  216:    && 0 < i[CH4] && i[CH4] <= 2
+       17:  216-block  0
+branch  0 taken 17
+branch  1 taken 0
+       17:  216-block  1
+branch  2 taken 17
+branch  3 taken 0
+       17:  217:    && 0 <= i[CH6]
+       17:  217-block  0
+branch  0 taken 17
+branch  1 taken 0
+       17:  218:    && 0 <= i[NIVEL_ED] && i[NIVEL_ED] <= 1
+       17:  218-block  0
+branch  0 taken 17
+branch  1 taken 0
+       17:  218-block  1
+branch  2 taken 17
+branch  3 taken 0
+       17:  219:    && -1 <= i[ESTADO] && i[ESTADO] <= 1
+       17:  219-block  0
+branch  0 taken 17
+branch  1 taken 0
+       17:  219-block  1
+branch  2 taken 17
+branch  3 taken 0
+       17:  220:    && 0 <= i[CAT_OCUP] && i[CAT_OCUP] <= 4
+       17:  220-block  0
+branch  0 taken 17
+branch  1 taken 0
+       17:  220-block  1
+branch  2 taken 17
+branch  3 taken 0
+       17:  221:    && -1 <= i[p47T]
+       17:  221-block  0
+branch  0 taken 17
+branch  1 taken 0
+       17:  222:    && 0 <= i[PP04G] && i[PP04G] <= 10;
+       17:  222-block  0
+branch  0 taken 17
+branch  1 taken 0
+       17:  222-block  1
+branch  2 taken 17
+branch  3 taken 0
+       17:  222-block  2
+        -:  223:}
+        -:  224:
+function _Z15valoresIndRangoRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEE called 1 returned 100% blocks executed 90%
+        1:  225:bool valoresIndRango(eph_i &ti){
+        1:  225-block  0
+        1:  226:    bool res=true;
+       18:  227:    for(int i=0; i<ti.size() && res;i++){
+        1:  227-block  0
+       18:  227-block  1
+branch  0 taken 17
+branch  1 taken 1
+       17:  227-block  2
+       18:  227-block  3
+branch  2 taken 17
+branch  3 taken 1
+       17:  227-block  4
+       17:  228:        if(!valoresEnRangoI(ti[i])){
+       17:  228-block  0
+branch  0 taken 0
+branch  1 taken 17
+    #####:  229:            res=false;
+    #####:  230:        }
+    $$$$$:  230-block  0
+       17:  231:    }
+       17:  231-block  0
+        1:  232:    return res;
+        1:  232-block  0
+        -:  233:}
+        -:  234:
+        -:  235:
+        -:  236://auxiliares problema 3
+function _Z11hogarValidoRNSt3__16vectorIiNS_9allocatorIiEEEEi called 0 returned 0% blocks executed 0%
+    #####:  237:bool hogarValido(hogar &h,dato region){
+    $$$$$:  237-block  0
+    #####:  238:    return (enRegion(h,region) && esCasa(h) && menos500000Hab(h));
+    $$$$$:  238-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  238-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  238-block  2
+    $$$$$:  238-block  3
+        -:  239:}
+        -:  240:
+function _Z7hogarHCRNSt3__16vectorIiNS_9allocatorIiEEEERNS0_IS3_NS1_IS3_EEEE called 0 returned 0% blocks executed 0%
+    #####:  241:bool hogarHC(hogar &h, eph_i &ti) {
+    $$$$$:  241-block  0
+    #####:  242:    return cantidadHabitantes(ti, h) > 3 * cantidadDormitorios(h);
+    $$$$$:  242-block  0
+        -:  243:}
+        -:  244:
+        -:  245://auxiliares problema 4
+function _Z21proporcionTeleworkingRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES6_ called 0 returned 0% blocks executed 0%
+    #####:  246:float proporcionTeleworking(eph_h &th, eph_i &ti){
+    $$$$$:  246-block  0
+    #####:  247:    int cantTrabajan=0;
+    #####:  248:    int cantTW=0;
+    #####:  249:    for(int i=0;i<ti.size();i++){
+    $$$$$:  249-block  0
+    $$$$$:  249-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  249-block  2
+    #####:  250:        hogar h= hogarDelInd(th,ti[i]);
+    #####:  251:        if(ti[i][ESTADO]==1 && ciudadGrande(h) && casaODepartamento(h)){
+    $$$$$:  251-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  251-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  251-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  251-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  251-block  4
+branch  8 never executed
+branch  9 never executed
+    #####:  252:            cantTrabajan++;
+    #####:  253:            if(ti[i][PP04G]==6 && h[II3]==1){
+    $$$$$:  253-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  253-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  254:                cantTW++;
+    #####:  255:            }
+    $$$$$:  255-block  0
+    #####:  256:        }
+    $$$$$:  256-block  0
+    #####:  257:    }
+    $$$$$:  257-block  0
+    $$$$$:  257-block  1
+    $$$$$:  257-block  2
+    #####:  258:    if(cantTrabajan==0){
+    $$$$$:  258-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  259:        return 0;
+    $$$$$:  259-block  0
+        -:  260:    }else{
+    #####:  261:        return float(cantTW)/float(cantTrabajan);
+    $$$$$:  261-block  0
+        -:  262:    }
+    #####:  263:}
+    $$$$$:  263-block  0
+        -:  264:
+        -:  265://auxiliares problema 5
+function _Z9casaChicaRNSt3__16vectorIiNS_9allocatorIiEEEENS0_IS3_NS1_IS3_EEEE called 0 returned 0% blocks executed 0%
+    #####:  266:bool casaChica(hogar &h,eph_i ti){
+    $$$$$:  266-block  0
+    #####:  267:    return cantidadHabitantes(ti,h)-2> cantidadDormitorios(h);
+    $$$$$:  267-block  0
+        -:  268:}
+        -:  269:
+        -:  270://auxiliares problema 7
+function _Z14ordenarHogaresRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEE called 0 returned 0% blocks executed 0%
+    #####:  271:void ordenarHogares(eph_h &th){
+    $$$$$:  271-block  0
+    #####:  272:    for (int i=0;i<th.size();i++) {
+    $$$$$:  272-block  0
+    $$$$$:  272-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  272-block  2
+    #####:  273:        for (int j=th.size()-1;j>i;j--) {
+    $$$$$:  273-block  0
+    $$$$$:  273-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  273-block  2
+    #####:  274:            if (th[j][REGION]< th[j-1][REGION]||
+    $$$$$:  274-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  274-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  275:            (th[j][REGION]==th[j-1][REGION]&& th[j][HOGCODUSU]<th[j-1][HOGCODUSU])){
+    $$$$$:  275-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  276:                swap(th[j],th[j-1]);
+    #####:  277:            }
+    $$$$$:  277-block  0
+    #####:  278:        }
+    $$$$$:  278-block  0
+    #####:  279:    }
+    $$$$$:  279-block  0
+    #####:  280:}
+    $$$$$:  280-block  0
+        -:  281:
+        -:  282:
+        -:  283://auxiliares problema 8
+function _Z16ingresosDelHogarRNSt3__16vectorIiNS_9allocatorIiEEEERNS0_IS3_NS1_IS3_EEEE called 11 returned 100% blocks executed 100%
+       11:  284:int ingresosDelHogar(hogar &h,eph_i &ti){
+       11:  284-block  0
+       11:  285:    int res=0;
+      198:  286:    for(int i=0;i<ti.size();i++){
+       11:  286-block  0
+      198:  286-block  1
+branch  0 taken 187
+branch  1 taken 11
+      187:  286-block  2
+      187:  287:        int ingresosInd=ti[i][p47T];
+      187:  288:        if(ti[i][INDCODUSU]==h[HOGCODUSU] && ingresosInd>0){
+      187:  288-block  0
+branch  0 taken 17
+branch  1 taken 170
+       17:  288-block  1
+branch  2 taken 11
+branch  3 taken 6
+       11:  289:            res=res+ingresosInd;
+       11:  290:        }
+       11:  290-block  0
+      187:  291:    }
+      187:  291-block  0
+       11:  292:    return res;
+       11:  292-block  0
+        -:  293:}
+        -:  294:
+function _Z16ingresosPorHogarRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES6_ called 1 returned 100% blocks executed 72%
+        1:  295:vector <int> ingresosPorHogar(eph_h &th,eph_i &ti){
+        1:  295-block  0
+        1:  296:    vector<int> res(th.size());
+       12:  297:    for(int h=0;h<th.size();h++){
+        1:  297-block  0
+       12:  297-block  1
+branch  0 taken 11
+branch  1 taken 1
+       11:  297-block  2
+       11:  298:        res[h]=ingresosDelHogar(th[h],ti);
+       11:  298-block  0
+branch  0 taken 11
+branch  1 taken 0
+       11:  299:    }
+       11:  299-block  0
+        1:  300:    return res;
+        1:  301:}
+    $$$$$:  301-block  0
+        1:  301-block  1
+branch  0 taken 0
+branch  1 taken 1
+    $$$$$:  301-block  2
+        1:  301-block  3
+    $$$$$:  301-block  4
+        -:  302:
+function _Z18ordenarPorIngresosRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEERS3_ called 1 returned 100% blocks executed 100%
+        1:  303:void ordenarPorIngresos(eph_h &th, vector<int> &ingresosHogares){
+        1:  303-block  0
+       12:  304:    for(int i=0;i<ingresosHogares.size();i++){
+        1:  304-block  0
+       12:  304-block  1
+branch  0 taken 11
+branch  1 taken 1
+       11:  304-block  2
+       11:  305:        int ingresoMin=i;
+       77:  306:        for(int j=i;j<ingresosHogares.size();j++){
+       11:  306-block  0
+       77:  306-block  1
+branch  0 taken 66
+branch  1 taken 11
+       66:  306-block  2
+       66:  307:            if(ingresosHogares[j]<ingresosHogares[ingresoMin]){
+       66:  307-block  0
+branch  0 taken 14
+branch  1 taken 52
+       14:  308:                ingresoMin=j;
+       14:  309:            }
+       14:  309-block  0
+       66:  310:        }
+       66:  310-block  0
+       11:  311:        swap(th[ingresoMin],th[i]);
+       11:  312:        swap(ingresosHogares[ingresoMin],ingresosHogares[i]);
+       11:  313:    }
+       11:  313-block  0
+        1:  314:}
+        1:  314-block  0
+        -:  315:
+function _Z16completarMuestraRNSt3__16vectorIiNS_9allocatorIiEEEEiS4_ called 51 returned 100% blocks executed 100%
+       51:  316:void completarMuestra(vector<int> &muestra, int diferencia,vector<int> &ingresosHogares){
+       51:  316-block  0
+       51:  317:    int i=muestra[1];
+       51:  318:    int j=muestra[1]+1;
+      191:  319:    while(j<ingresosHogares.size()){
+       51:  319-block  0
+      191:  319-block  1
+branch  0 taken 140
+branch  1 taken 51
+      140:  319-block  2
+      140:  320:        if(ingresosHogares[j]-ingresosHogares[i]==diferencia){
+      140:  320-block  0
+branch  0 taken 1
+branch  1 taken 139
+        1:  321:            i=j;
+        1:  322:            muestra.push_back(j);
+        1:  323:        }
+        1:  323-block  0
+      140:  324:        j++;
+        -:  325:    }
+       51:  326:}
+       51:  326-block  0
+        -:  327:
+function _Z13buscarMuestraRNSt3__16vectorIiNS_9allocatorIiEEEE called 1 returned 100% blocks executed 78%
+        1:  328:vector <int> buscarMuestra(vector<int> &ingresosHogares){
+        1:  328-block  0
+        1:  329:    vector<int> res;
+       12:  330:    for(int i=0; i<ingresosHogares.size();i++){
+        1:  330-block  0
+       12:  330-block  1
+branch  0 taken 11
+branch  1 taken 1
+       11:  330-block  2
+       66:  331:        for (int j=i+1; j<ingresosHogares.size(); j++){
+       11:  331-block  0
+       66:  331-block  1
+branch  0 taken 55
+branch  1 taken 11
+       55:  331-block  2
+       55:  332:            int diferencia=ingresosHogares[j]-ingresosHogares[i];
+       55:  333:            if(diferencia>0){
+       55:  333-block  0
+branch  0 taken 51
+branch  1 taken 4
+       51:  334:                vector<int> muestra={i,j};
+       51:  334-block  0
+branch  0 taken 51
+branch  1 taken 0
+       51:  335:                completarMuestra(muestra,diferencia,ingresosHogares);
+       51:  335-block  0
+branch  0 taken 51
+branch  1 taken 0
+       51:  336:                if(muestra.size()>res.size()){
+       51:  336-block  0
+branch  0 taken 2
+branch  1 taken 49
+        2:  337:                    res=muestra;
+        2:  337-block  0
+branch  0 taken 2
+branch  1 taken 0
+        2:  338:                }
+        2:  338-block  0
+       51:  339:            }
+    $$$$$:  339-block  0
+       51:  339-block  1
+       55:  340:        }
+       55:  340-block  0
+       11:  341:    }
+       11:  341-block  0
+        1:  342:    return res;
+        1:  343:}
+    $$$$$:  343-block  0
+        1:  343-block  1
+branch  0 taken 0
+branch  1 taken 1
+    $$$$$:  343-block  2
+        1:  343-block  3
+    $$$$$:  343-block  4
+    $$$$$:  343-block  5
+        -:  344:
+        -:  345:
+        -:  346://auxiliares problema 10
+function _Z19distanciaEuclideanaNSt3__14pairIiiEES1_ called 0 returned 0% blocks executed 0%
+    #####:  347:float distanciaEuclideana(pair<int,int> centro, pair<int,int> posicion){
+    $$$$$:  347-block  0
+    #####:  348:    float a=centro.first-posicion.first;
+    #####:  349:    float b=centro.second-posicion.second;
+    #####:  350:    return sqrt(a*a + b*b);
+    $$$$$:  350-block  0
+        -:  351:}
+        -:  352:
+function _Z13hogarEnAnilloiiNSt3__14pairIiiEES1_ called 0 returned 0% blocks executed 0%
+    #####:  353:bool hogarEnAnillo(int desde, int hasta, pair<int,int> centro, pair<int,int> posicion){
+    $$$$$:  353-block  0
+    #####:  354:    return desde < distanciaEuclideana(centro,posicion) &&
+    $$$$$:  354-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  354-block  1
+    #####:  355:    distanciaEuclideana(centro,posicion) <= hasta;
+    $$$$$:  355-block  0
+        -:  356:}
+        -:  357:
+        -:  358://auxiliares problema 11
+function _Z11indCoincideRNSt3__16vectorIiNS_9allocatorIiEEEERNS0_INS_4pairIiiEENS1_IS6_EEEE called 0 returned 0% blocks executed 0%
+    #####:  359:bool indCoincide(individuo &ind, vector<pair<int,dato>> &busqueda){
+    $$$$$:  359-block  0
+    #####:  360:    for (int i=0;i<busqueda.size();i++){
+    $$$$$:  360-block  0
+    $$$$$:  360-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  360-block  2
+    #####:  361:        if(ind[busqueda[i].first]!= busqueda[i].second){
+    $$$$$:  361-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  362:            return false;
+    $$$$$:  362-block  0
+        -:  363:        }
+    #####:  364:    }
+    $$$$$:  364-block  0
+    #####:  365:    return true;
+    $$$$$:  365-block  0
+    #####:  366:}
+    $$$$$:  366-block  0
+        -:  367:

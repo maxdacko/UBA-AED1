@@ -1,0 +1,2929 @@
+        -:    0:Source:/Users/delficomerso/template-alumnos 2/test/esEncuestaValidaTEST.cpp
+        -:    0:Graph:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/test/esEncuestaValidaTEST.gcno
+        -:    0:Data:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/test/esEncuestaValidaTEST.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "../definiciones.h"
+        -:    2:#include "../Funciones_TPI.h"
+        -:    3:#include "../ejercicios.h"
+        -:    4:#include "gtest/gtest.h"
+        -:    5:#include <iostream>
+        -:    6:#include <string>
+        -:    7:#include "../auxiliares.h"
+        -:    8:
+        -:    9:using namespace std;
+        -:   10:
+function __cxx_global_var_init called 1 returned 100% blocks executed 53%
+function _ZN32esEncuestaValidaTEST_valida_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN32esEncuestaValidaTEST_valida_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN32esEncuestaValidaTEST_valida_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN32esEncuestaValidaTEST_valida_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN32esEncuestaValidaTEST_valida_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN32esEncuestaValidaTEST_valida_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   11:TEST(esEncuestaValidaTEST, valida) {
+        1:   11-block  0
+        1:   11-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   11-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   11-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   11-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   11-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   11-block  6
+    $$$$$:   11-block  7
+    $$$$$:   11-block  8
+    $$$$$:   11-block  9
+    $$$$$:   11-block 10
+    $$$$$:   11-block 11
+    $$$$$:   11-block 12
+    $$$$$:   11-block 13
+    $$$$$:   11-block 14
+    $$$$$:   11-block 15
+    $$$$$:   11-block 16
+    $$$$$:   11-block 17
+    $$$$$:   11-block 18
+    $$$$$:   11-block 19
+    $$$$$:   11-block 20
+        -:   12:
+    #####:   13:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2},
+    $$$$$:   13-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   13-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   13-block  2
+    $$$$$:   13-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   13-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   13-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   13-block  6
+    $$$$$:   13-block  7
+    $$$$$:   13-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   13-block  9
+    $$$$$:   13-block 10
+    #####:   14:                {31117, 2020,   3,  332870, 642475, 3,  40, 0,  1,  6,  6,  2},
+    $$$$$:   14-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   15:                {22866, 2020,   3,  317157, 627217, 2,  42, 1,  1,  2,  2,  2},
+    $$$$$:   15-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   16:                {20957, 2020,   3,  313965, 623297, 1,  43, 0,  1,  3,  1,  2}};
+    $$$$$:   16-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   17:
+    #####:   18:    eph_i ti = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:   18-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   18-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   18-block  2
+    $$$$$:   18-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   18-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   18-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   18-block  6
+    $$$$$:   18-block  7
+    $$$$$:   18-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   18-block  9
+    #####:   19:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   19-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   20:                {31117, 2020,   1,  0,  3,  1,  58, 1,  3,  22000,  1},
+    $$$$$:   20-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   21:                {31117, 2020,   2,  0,  3,  2,  54, 1,  1,  -1,     1},
+    $$$$$:   21-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   22:                {31117, 2020,   3,  0,  3,  2,  46, 1,  3,  17000,  1},
+    $$$$$:   22-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   23:                {31117, 2020,   4,  0,  3,  1,  20, 1,  3,  5000,   1},
+    $$$$$:   23-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   24:                {31117, 2020,   5,  0,  3,  2,  15, 0,  0,  5000,   10},
+    $$$$$:   24-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   25:                {31117, 2020,   6,  0,  3,  1,  7,  0,  0,  0,      10},
+    $$$$$:   25-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   26:                {31117, 2020,   8,  0,  3,  2,  11, 0,  0,  0,      10},
+    $$$$$:   26-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   27:                {31117, 2020,   9,  0,  3,  1,  50, 0,  2,  0,      10},
+    $$$$$:   27-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   28:                {31117, 2020,   10, 0,  3,  1,  28, 1,  3,  5000,   1},
+    $$$$$:   28-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   29:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:   29-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   30:                {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   30-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   31:                {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:   31-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   32:
+    #####:   33:    EXPECT_TRUE(esEncuestaValida(th, ti));
+    $$$$$:   33-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   33-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   33-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   33-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   33-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   33-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   33-block  6
+    $$$$$:   33-block  7
+    $$$$$:   33-block  8
+    $$$$$:   33-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   33-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   33-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   33-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   33-block 13
+    $$$$$:   33-block 14
+    $$$$$:   33-block 15
+    $$$$$:   33-block 16
+    $$$$$:   33-block 17
+    #####:   34:}
+    $$$$$:   34-block  0
+    $$$$$:   34-block  1
+    $$$$$:   34-block  2
+    $$$$$:   34-block  3
+    $$$$$:   34-block  4
+    $$$$$:   34-block  5
+    $$$$$:   34-block  6
+    $$$$$:   34-block  7
+        -:   35:
+function __cxx_global_var_init.23 called 1 returned 100% blocks executed 53%
+function _ZN44esEncuestaValidaTEST_invalidaSinHogares_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN44esEncuestaValidaTEST_invalidaSinHogares_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN44esEncuestaValidaTEST_invalidaSinHogares_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN44esEncuestaValidaTEST_invalidaSinHogares_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN44esEncuestaValidaTEST_invalidaSinHogares_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN44esEncuestaValidaTEST_invalidaSinHogares_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   36:TEST(esEncuestaValidaTEST, invalidaSinHogares) {
+        1:   36-block  0
+        1:   36-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   36-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   36-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   36-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   36-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   36-block  6
+    $$$$$:   36-block  7
+    $$$$$:   36-block  8
+    $$$$$:   36-block  9
+    $$$$$:   36-block 10
+    $$$$$:   36-block 11
+    $$$$$:   36-block 12
+    $$$$$:   36-block 13
+    $$$$$:   36-block 14
+    $$$$$:   36-block 15
+    $$$$$:   36-block 16
+    $$$$$:   36-block 17
+    $$$$$:   36-block 18
+    $$$$$:   36-block 19
+    $$$$$:   36-block 20
+        -:   37:
+    #####:   38:    eph_h th = {};
+        -:   39:
+    #####:   40:    eph_i ti = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:   40-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   40-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   40-block  2
+    $$$$$:   40-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   40-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   40-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   40-block  6
+    $$$$$:   40-block  7
+    $$$$$:   40-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   40-block  9
+    #####:   41:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   41-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   42:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:   42-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   43:                {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   43-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   44:                {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:   44-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   45:
+    #####:   46:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:   46-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   46-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   46-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   46-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   46-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   46-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   46-block  6
+    $$$$$:   46-block  7
+    $$$$$:   46-block  8
+    $$$$$:   46-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   46-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   46-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   46-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   46-block 13
+    $$$$$:   46-block 14
+    $$$$$:   46-block 15
+    $$$$$:   46-block 16
+    $$$$$:   46-block 17
+    #####:   47:}
+    $$$$$:   47-block  0
+    $$$$$:   47-block  1
+    $$$$$:   47-block  2
+    $$$$$:   47-block  3
+    $$$$$:   47-block  4
+    $$$$$:   47-block  5
+    $$$$$:   47-block  6
+    $$$$$:   47-block  7
+    $$$$$:   47-block  8
+        -:   48:
+function __cxx_global_var_init.30 called 1 returned 100% blocks executed 53%
+function _ZN64esEncuestaValidaTEST_invalidaSinTodosLosAtributosIndividuos_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN64esEncuestaValidaTEST_invalidaSinTodosLosAtributosIndividuos_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN64esEncuestaValidaTEST_invalidaSinTodosLosAtributosIndividuos_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN64esEncuestaValidaTEST_invalidaSinTodosLosAtributosIndividuos_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN64esEncuestaValidaTEST_invalidaSinTodosLosAtributosIndividuos_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN64esEncuestaValidaTEST_invalidaSinTodosLosAtributosIndividuos_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   49:TEST(esEncuestaValidaTEST, invalidaSinTodosLosAtributosIndividuos) {
+        1:   49-block  0
+        1:   49-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   49-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   49-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   49-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   49-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   49-block  6
+    $$$$$:   49-block  7
+    $$$$$:   49-block  8
+    $$$$$:   49-block  9
+    $$$$$:   49-block 10
+    $$$$$:   49-block 11
+    $$$$$:   49-block 12
+    $$$$$:   49-block 13
+    $$$$$:   49-block 14
+    $$$$$:   49-block 15
+    $$$$$:   49-block 16
+    $$$$$:   49-block 17
+    $$$$$:   49-block 18
+    $$$$$:   49-block 19
+    $$$$$:   49-block 20
+    #####:   50:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2}};
+    $$$$$:   50-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   50-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   50-block  2
+    $$$$$:   50-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   50-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   50-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   50-block  6
+    $$$$$:   50-block  7
+    $$$$$:   50-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   50-block  9
+    $$$$$:   50-block 10
+    #####:   51:    eph_i ti = {{22114},
+    $$$$$:   51-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   51-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   51-block  2
+    $$$$$:   51-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   51-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   51-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   51-block  6
+    $$$$$:   51-block  7
+    $$$$$:   51-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   51-block  9
+    #####:   52:                {22114, 2020}};
+    $$$$$:   52-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   53:
+    #####:   54:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:   54-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   54-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   54-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   54-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   54-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   54-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   54-block  6
+    $$$$$:   54-block  7
+    $$$$$:   54-block  8
+    $$$$$:   54-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   54-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   54-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   54-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   54-block 13
+    $$$$$:   54-block 14
+    $$$$$:   54-block 15
+    $$$$$:   54-block 16
+    $$$$$:   54-block 17
+    #####:   55:}
+    $$$$$:   55-block  0
+    $$$$$:   55-block  1
+    $$$$$:   55-block  2
+    $$$$$:   55-block  3
+    $$$$$:   55-block  4
+    $$$$$:   55-block  5
+    $$$$$:   55-block  6
+    $$$$$:   55-block  7
+        -:   56:
+function __cxx_global_var_init.33 called 1 returned 100% blocks executed 53%
+function _ZN61esEncuestaValidaTEST_invalidaSinTodosLosAtributosHogares_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN61esEncuestaValidaTEST_invalidaSinTodosLosAtributosHogares_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN61esEncuestaValidaTEST_invalidaSinTodosLosAtributosHogares_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN61esEncuestaValidaTEST_invalidaSinTodosLosAtributosHogares_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN61esEncuestaValidaTEST_invalidaSinTodosLosAtributosHogares_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN61esEncuestaValidaTEST_invalidaSinTodosLosAtributosHogares_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   57:TEST(esEncuestaValidaTEST, invalidaSinTodosLosAtributosHogares) {
+        1:   57-block  0
+        1:   57-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   57-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   57-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   57-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   57-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   57-block  6
+    $$$$$:   57-block  7
+    $$$$$:   57-block  8
+    $$$$$:   57-block  9
+    $$$$$:   57-block 10
+    $$$$$:   57-block 11
+    $$$$$:   57-block 12
+    $$$$$:   57-block 13
+    $$$$$:   57-block 14
+    $$$$$:   57-block 15
+    $$$$$:   57-block 16
+    $$$$$:   57-block 17
+    $$$$$:   57-block 18
+    $$$$$:   57-block 19
+    $$$$$:   57-block 20
+    #####:   58:    eph_h th = {{}};
+    $$$$$:   58-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   58-block  1
+    $$$$$:   58-block  2
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   58-block  3
+    $$$$$:   58-block  4
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   58-block  5
+    $$$$$:   58-block  6
+    #####:   59:    eph_i ti = {{22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:   59-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   59-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   59-block  2
+    $$$$$:   59-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   59-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   59-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   59-block  6
+    $$$$$:   59-block  7
+    $$$$$:   59-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   59-block  9
+        -:   60:
+    #####:   61:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:   61-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   61-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   61-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   61-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   61-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   61-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   61-block  6
+    $$$$$:   61-block  7
+    $$$$$:   61-block  8
+    $$$$$:   61-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   61-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   61-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   61-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   61-block 13
+    $$$$$:   61-block 14
+    $$$$$:   61-block 15
+    $$$$$:   61-block 16
+    $$$$$:   61-block 17
+    #####:   62:}
+    $$$$$:   62-block  0
+    $$$$$:   62-block  1
+    $$$$$:   62-block  2
+    $$$$$:   62-block  3
+    $$$$$:   62-block  4
+    $$$$$:   62-block  5
+    $$$$$:   62-block  6
+    $$$$$:   62-block  7
+        -:   63:
+function __cxx_global_var_init.36 called 1 returned 100% blocks executed 53%
+function _ZN54esEncuestaValidaTEST_invalidaIndividuosSinHogares_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN54esEncuestaValidaTEST_invalidaIndividuosSinHogares_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN54esEncuestaValidaTEST_invalidaIndividuosSinHogares_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN54esEncuestaValidaTEST_invalidaIndividuosSinHogares_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN54esEncuestaValidaTEST_invalidaIndividuosSinHogares_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN54esEncuestaValidaTEST_invalidaIndividuosSinHogares_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   64:TEST(esEncuestaValidaTEST, invalidaIndividuosSinHogares) {
+        1:   64-block  0
+        1:   64-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   64-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   64-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   64-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   64-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   64-block  6
+    $$$$$:   64-block  7
+    $$$$$:   64-block  8
+    $$$$$:   64-block  9
+    $$$$$:   64-block 10
+    $$$$$:   64-block 11
+    $$$$$:   64-block 12
+    $$$$$:   64-block 13
+    $$$$$:   64-block 14
+    $$$$$:   64-block 15
+    $$$$$:   64-block 16
+    $$$$$:   64-block 17
+    $$$$$:   64-block 18
+    $$$$$:   64-block 19
+    $$$$$:   64-block 20
+    #####:   65:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2},
+    $$$$$:   65-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   65-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   65-block  2
+    $$$$$:   65-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   65-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   65-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   65-block  6
+    $$$$$:   65-block  7
+    $$$$$:   65-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   65-block  9
+    $$$$$:   65-block 10
+    #####:   66:                {20957, 2020,   3,  313965, 623297, 1,  43, 0,  1,  3,  1,  2}};
+    $$$$$:   66-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   67:    eph_i ti = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:   67-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   67-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   67-block  2
+    $$$$$:   67-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   67-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   67-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   67-block  6
+    $$$$$:   67-block  7
+    $$$$$:   67-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   67-block  9
+    #####:   68:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   68-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   69:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:   69-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   70:                {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   70-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   71:                {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:   71-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   72:
+    #####:   73:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:   73-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   73-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   73-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   73-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   73-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   73-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   73-block  6
+    $$$$$:   73-block  7
+    $$$$$:   73-block  8
+    $$$$$:   73-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   73-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   73-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   73-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   73-block 13
+    $$$$$:   73-block 14
+    $$$$$:   73-block 15
+    $$$$$:   73-block 16
+    $$$$$:   73-block 17
+    #####:   74:}
+    $$$$$:   74-block  0
+    $$$$$:   74-block  1
+    $$$$$:   74-block  2
+    $$$$$:   74-block  3
+    $$$$$:   74-block  4
+    $$$$$:   74-block  5
+    $$$$$:   74-block  6
+    $$$$$:   74-block  7
+        -:   75:
+function __cxx_global_var_init.45 called 1 returned 100% blocks executed 53%
+function _ZN56esEncuestaValidaTEST_invalidaHogaresCodusuRepetidos_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN56esEncuestaValidaTEST_invalidaHogaresCodusuRepetidos_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN56esEncuestaValidaTEST_invalidaHogaresCodusuRepetidos_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN56esEncuestaValidaTEST_invalidaHogaresCodusuRepetidos_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN56esEncuestaValidaTEST_invalidaHogaresCodusuRepetidos_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN56esEncuestaValidaTEST_invalidaHogaresCodusuRepetidos_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   76:TEST(esEncuestaValidaTEST, invalidaHogaresCodusuRepetidos) {
+        1:   76-block  0
+        1:   76-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   76-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   76-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   76-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   76-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   76-block  6
+    $$$$$:   76-block  7
+    $$$$$:   76-block  8
+    $$$$$:   76-block  9
+    $$$$$:   76-block 10
+    $$$$$:   76-block 11
+    $$$$$:   76-block 12
+    $$$$$:   76-block 13
+    $$$$$:   76-block 14
+    $$$$$:   76-block 15
+    $$$$$:   76-block 16
+    $$$$$:   76-block 17
+    $$$$$:   76-block 18
+    $$$$$:   76-block 19
+    $$$$$:   76-block 20
+    #####:   77:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2},
+    $$$$$:   77-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   77-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   77-block  2
+    $$$$$:   77-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   77-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   77-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   77-block  6
+    $$$$$:   77-block  7
+    $$$$$:   77-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   77-block  9
+    $$$$$:   77-block 10
+    #####:   78:                {22114, 2020,   3,  332870, 642475, 3,  40, 0,  1,  6,  6,  2},
+    $$$$$:   78-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   79:                {22866, 2020,   3,  317157, 627217, 2,  42, 1,  1,  2,  2,  2},
+    $$$$$:   79-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   80:                {20957, 2020,   3,  313965, 623297, 1,  43, 0,  1,  3,  1,  2}};
+    $$$$$:   80-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   81:    eph_i ti = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:   81-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   81-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   81-block  2
+    $$$$$:   81-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   81-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   81-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   81-block  6
+    $$$$$:   81-block  7
+    $$$$$:   81-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   81-block  9
+    #####:   82:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   82-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   83:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:   83-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   84:                {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   84-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   85:                {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:   85-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   86:
+    #####:   87:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:   87-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   87-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   87-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   87-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   87-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   87-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   87-block  6
+    $$$$$:   87-block  7
+    $$$$$:   87-block  8
+    $$$$$:   87-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   87-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   87-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   87-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   87-block 13
+    $$$$$:   87-block 14
+    $$$$$:   87-block 15
+    $$$$$:   87-block 16
+    $$$$$:   87-block 17
+    #####:   88:}
+    $$$$$:   88-block  0
+    $$$$$:   88-block  1
+    $$$$$:   88-block  2
+    $$$$$:   88-block  3
+    $$$$$:   88-block  4
+    $$$$$:   88-block  5
+    $$$$$:   88-block  6
+    $$$$$:   88-block  7
+        -:   89:
+function __cxx_global_var_init.56 called 1 returned 100% blocks executed 53%
+function _ZN70esEncuestaValidaTEST_invalidaIndividuosCodusuYComponenteRepetidos_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN70esEncuestaValidaTEST_invalidaIndividuosCodusuYComponenteRepetidos_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN70esEncuestaValidaTEST_invalidaIndividuosCodusuYComponenteRepetidos_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN70esEncuestaValidaTEST_invalidaIndividuosCodusuYComponenteRepetidos_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN70esEncuestaValidaTEST_invalidaIndividuosCodusuYComponenteRepetidos_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN70esEncuestaValidaTEST_invalidaIndividuosCodusuYComponenteRepetidos_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   90:TEST(esEncuestaValidaTEST, invalidaIndividuosCodusuYComponenteRepetidos) {
+        1:   90-block  0
+        1:   90-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   90-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   90-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   90-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   90-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   90-block  6
+    $$$$$:   90-block  7
+    $$$$$:   90-block  8
+    $$$$$:   90-block  9
+    $$$$$:   90-block 10
+    $$$$$:   90-block 11
+    $$$$$:   90-block 12
+    $$$$$:   90-block 13
+    $$$$$:   90-block 14
+    $$$$$:   90-block 15
+    $$$$$:   90-block 16
+    $$$$$:   90-block 17
+    $$$$$:   90-block 18
+    $$$$$:   90-block 19
+    $$$$$:   90-block 20
+    #####:   91:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2},
+    $$$$$:   91-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   91-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   91-block  2
+    $$$$$:   91-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   91-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   91-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   91-block  6
+    $$$$$:   91-block  7
+    $$$$$:   91-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   91-block  9
+    $$$$$:   91-block 10
+    #####:   92:                {22866, 2020,   3,  317157, 627217, 2,  42, 1,  1,  2,  2,  2},
+    $$$$$:   92-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   93:                {20957, 2020,   3,  313965, 623297, 1,  43, 0,  1,  3,  1,  2}};
+    $$$$$:   93-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   94:    eph_i ti = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:   94-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   94-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   94-block  2
+    $$$$$:   94-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   94-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   94-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   94-block  6
+    $$$$$:   94-block  7
+    $$$$$:   94-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   94-block  9
+    #####:   95:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   95-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   96:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:   96-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   97:                {22866, 2020,   1,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   97-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   98:                {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:   98-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   99:
+    #####:  100:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:  100-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  100-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  100-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  100-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  100-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  100-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  100-block  6
+    $$$$$:  100-block  7
+    $$$$$:  100-block  8
+    $$$$$:  100-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  100-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  100-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  100-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  100-block 13
+    $$$$$:  100-block 14
+    $$$$$:  100-block 15
+    $$$$$:  100-block 16
+    $$$$$:  100-block 17
+    #####:  101:}
+    $$$$$:  101-block  0
+    $$$$$:  101-block  1
+    $$$$$:  101-block  2
+    $$$$$:  101-block  3
+    $$$$$:  101-block  4
+    $$$$$:  101-block  5
+    $$$$$:  101-block  6
+    $$$$$:  101-block  7
+        -:  102:
+function __cxx_global_var_init.66 called 1 returned 100% blocks executed 53%
+function _ZN53esEncuestaValidaTEST_invalidaDistintoAnioHogares_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN53esEncuestaValidaTEST_invalidaDistintoAnioHogares_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN53esEncuestaValidaTEST_invalidaDistintoAnioHogares_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN53esEncuestaValidaTEST_invalidaDistintoAnioHogares_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN53esEncuestaValidaTEST_invalidaDistintoAnioHogares_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN53esEncuestaValidaTEST_invalidaDistintoAnioHogares_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  103:TEST(esEncuestaValidaTEST, invalidaDistintoAnioHogares) {
+        1:  103-block  0
+        1:  103-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  103-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  103-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  103-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  103-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  103-block  6
+    $$$$$:  103-block  7
+    $$$$$:  103-block  8
+    $$$$$:  103-block  9
+    $$$$$:  103-block 10
+    $$$$$:  103-block 11
+    $$$$$:  103-block 12
+    $$$$$:  103-block 13
+    $$$$$:  103-block 14
+    $$$$$:  103-block 15
+    $$$$$:  103-block 16
+    $$$$$:  103-block 17
+    $$$$$:  103-block 18
+    $$$$$:  103-block 19
+    $$$$$:  103-block 20
+    #####:  104:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2},
+    $$$$$:  104-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  104-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  104-block  2
+    $$$$$:  104-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  104-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  104-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  104-block  6
+    $$$$$:  104-block  7
+    $$$$$:  104-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  104-block  9
+    $$$$$:  104-block 10
+    #####:  105:                {22866, 2020,   3,  317157, 627217, 2,  42, 1,  1,  2,  2,  2},
+    $$$$$:  105-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  106:                {20957, 2021,   3,  313965, 623297, 1,  43, 0,  1,  3,  1,  2}};
+    $$$$$:  106-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  107:    eph_i ti = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:  107-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  107-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  107-block  2
+    $$$$$:  107-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  107-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  107-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  107-block  6
+    $$$$$:  107-block  7
+    $$$$$:  107-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  107-block  9
+    #####:  108:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:  108-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  109:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:  109-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  110:                {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:  110-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  111:                {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:  111-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  112:
+    #####:  113:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:  113-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  113-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  113-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  113-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  113-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  113-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  113-block  6
+    $$$$$:  113-block  7
+    $$$$$:  113-block  8
+    $$$$$:  113-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  113-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  113-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  113-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  113-block 13
+    $$$$$:  113-block 14
+    $$$$$:  113-block 15
+    $$$$$:  113-block 16
+    $$$$$:  113-block 17
+    #####:  114:}
+    $$$$$:  114-block  0
+    $$$$$:  114-block  1
+    $$$$$:  114-block  2
+    $$$$$:  114-block  3
+    $$$$$:  114-block  4
+    $$$$$:  114-block  5
+    $$$$$:  114-block  6
+    $$$$$:  114-block  7
+        -:  115:
+function __cxx_global_var_init.76 called 1 returned 100% blocks executed 53%
+function _ZN69esEncuestaValidaTEST_invalidaDistintoAnioEntreHogaresEIndividuos_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN69esEncuestaValidaTEST_invalidaDistintoAnioEntreHogaresEIndividuos_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN69esEncuestaValidaTEST_invalidaDistintoAnioEntreHogaresEIndividuos_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN69esEncuestaValidaTEST_invalidaDistintoAnioEntreHogaresEIndividuos_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN69esEncuestaValidaTEST_invalidaDistintoAnioEntreHogaresEIndividuos_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN69esEncuestaValidaTEST_invalidaDistintoAnioEntreHogaresEIndividuos_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  116:TEST(esEncuestaValidaTEST, invalidaDistintoAnioEntreHogaresEIndividuos) {
+        1:  116-block  0
+        1:  116-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  116-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  116-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  116-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  116-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  116-block  6
+    $$$$$:  116-block  7
+    $$$$$:  116-block  8
+    $$$$$:  116-block  9
+    $$$$$:  116-block 10
+    $$$$$:  116-block 11
+    $$$$$:  116-block 12
+    $$$$$:  116-block 13
+    $$$$$:  116-block 14
+    $$$$$:  116-block 15
+    $$$$$:  116-block 16
+    $$$$$:  116-block 17
+    $$$$$:  116-block 18
+    $$$$$:  116-block 19
+    $$$$$:  116-block 20
+    #####:  117:    eph_h th = {{22114, 2021,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2},
+    $$$$$:  117-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  117-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  117-block  2
+    $$$$$:  117-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  117-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  117-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  117-block  6
+    $$$$$:  117-block  7
+    $$$$$:  117-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  117-block  9
+    $$$$$:  117-block 10
+    #####:  118:                {22866, 2021,   3,  317157, 627217, 2,  42, 1,  1,  2,  2,  2},
+    $$$$$:  118-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  119:                {20957, 2021,   3,  313965, 623297, 1,  43, 0,  1,  3,  1,  2}};
+    $$$$$:  119-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  120:    eph_i ti = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:  120-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  120-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  120-block  2
+    $$$$$:  120-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  120-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  120-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  120-block  6
+    $$$$$:  120-block  7
+    $$$$$:  120-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  120-block  9
+    #####:  121:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:  121-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  122:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:  122-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  123:                {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:  123-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  124:                {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:  124-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  125:
+    #####:  126:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:  126-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  126-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  126-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  126-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  126-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  126-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  126-block  6
+    $$$$$:  126-block  7
+    $$$$$:  126-block  8
+    $$$$$:  126-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  126-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  126-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  126-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  126-block 13
+    $$$$$:  126-block 14
+    $$$$$:  126-block 15
+    $$$$$:  126-block 16
+    $$$$$:  126-block 17
+    #####:  127:}
+    $$$$$:  127-block  0
+    $$$$$:  127-block  1
+    $$$$$:  127-block  2
+    $$$$$:  127-block  3
+    $$$$$:  127-block  4
+    $$$$$:  127-block  5
+    $$$$$:  127-block  6
+    $$$$$:  127-block  7
+        -:  128:
+function __cxx_global_var_init.86 called 1 returned 100% blocks executed 53%
+function _ZN66esEncuestaValidaTEST_invalidaDistintoTrimestreEntreIndividuos_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN66esEncuestaValidaTEST_invalidaDistintoTrimestreEntreIndividuos_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN66esEncuestaValidaTEST_invalidaDistintoTrimestreEntreIndividuos_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN66esEncuestaValidaTEST_invalidaDistintoTrimestreEntreIndividuos_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN66esEncuestaValidaTEST_invalidaDistintoTrimestreEntreIndividuos_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN66esEncuestaValidaTEST_invalidaDistintoTrimestreEntreIndividuos_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  129:TEST(esEncuestaValidaTEST, invalidaDistintoTrimestreEntreIndividuos) {
+        1:  129-block  0
+        1:  129-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  129-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  129-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  129-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  129-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  129-block  6
+    $$$$$:  129-block  7
+    $$$$$:  129-block  8
+    $$$$$:  129-block  9
+    $$$$$:  129-block 10
+    $$$$$:  129-block 11
+    $$$$$:  129-block 12
+    $$$$$:  129-block 13
+    $$$$$:  129-block 14
+    $$$$$:  129-block 15
+    $$$$$:  129-block 16
+    $$$$$:  129-block 17
+    $$$$$:  129-block 18
+    $$$$$:  129-block 19
+    $$$$$:  129-block 20
+    #####:  130:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2},
+    $$$$$:  130-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  130-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  130-block  2
+    $$$$$:  130-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  130-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  130-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  130-block  6
+    $$$$$:  130-block  7
+    $$$$$:  130-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  130-block  9
+    $$$$$:  130-block 10
+    #####:  131:                {22866, 2020,   3,  317157, 627217, 2,  42, 1,  1,  2,  2,  2},
+    $$$$$:  131-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  132:                {20957, 2020,   3,  313965, 623297, 1,  43, 0,  1,  3,  1,  2}};
+    $$$$$:  132-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  133:    eph_i ti = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:  133-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  133-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  133-block  2
+    $$$$$:  133-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  133-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  133-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  133-block  6
+    $$$$$:  133-block  7
+    $$$$$:  133-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  133-block  9
+    #####:  134:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:  134-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  135:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:  135-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  136:                {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:  136-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  137:                {22114, 2020,   1,  0,  2,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:  137-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  138:
+    #####:  139:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:  139-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  139-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  139-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  139-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  139-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  139-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  139-block  6
+    $$$$$:  139-block  7
+    $$$$$:  139-block  8
+    $$$$$:  139-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  139-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  139-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  139-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  139-block 13
+    $$$$$:  139-block 14
+    $$$$$:  139-block 15
+    $$$$$:  139-block 16
+    $$$$$:  139-block 17
+    #####:  140:}
+    $$$$$:  140-block  0
+    $$$$$:  140-block  1
+    $$$$$:  140-block  2
+    $$$$$:  140-block  3
+    $$$$$:  140-block  4
+    $$$$$:  140-block  5
+    $$$$$:  140-block  6
+    $$$$$:  140-block  7
+function __cxx_global_var_init.96 called 1 returned 100% blocks executed 53%
+function _ZN65esEncuestaValidaTEST_invalidaDormitoriosMayoresAHabitaciones_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN65esEncuestaValidaTEST_invalidaDormitoriosMayoresAHabitaciones_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN65esEncuestaValidaTEST_invalidaDormitoriosMayoresAHabitaciones_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN65esEncuestaValidaTEST_invalidaDormitoriosMayoresAHabitaciones_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN65esEncuestaValidaTEST_invalidaDormitoriosMayoresAHabitaciones_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN65esEncuestaValidaTEST_invalidaDormitoriosMayoresAHabitaciones_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  141:TEST(esEncuestaValidaTEST, invalidaDormitoriosMayoresAHabitaciones) {
+        1:  141-block  0
+        1:  141-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  141-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  141-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  141-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  141-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  141-block  6
+    $$$$$:  141-block  7
+    $$$$$:  141-block  8
+    $$$$$:  141-block  9
+    $$$$$:  141-block 10
+    $$$$$:  141-block 11
+    $$$$$:  141-block 12
+    $$$$$:  141-block 13
+    $$$$$:  141-block 14
+    $$$$$:  141-block 15
+    $$$$$:  141-block 16
+    $$$$$:  141-block 17
+    $$$$$:  141-block 18
+    $$$$$:  141-block 19
+    $$$$$:  141-block 20
+        -:  142:    //                                                cantidad de dormitorios
+        -:  143:    //                                        cantidad de habitaciones  |
+        -:  144:    //                                                              |   |
+        -:  145:    //                                                              v   v
+    #####:  146:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2},
+    $$$$$:  146-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  146-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  146-block  2
+    $$$$$:  146-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  146-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  146-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  146-block  6
+    $$$$$:  146-block  7
+    $$$$$:  146-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  146-block  9
+    $$$$$:  146-block 10
+    #####:  147:                {22866, 2020,   1,  317157, 627217, 2,  42, 1,  1,  2,  5,  2},
+    $$$$$:  147-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  148:                {20957, 2020,   3,  313965, 623297, 1,  43, 0,  1,  3,  1,  2}};
+    $$$$$:  148-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  149:    eph_i ti = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:  149-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  149-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  149-block  2
+    $$$$$:  149-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  149-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  149-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  149-block  6
+    $$$$$:  149-block  7
+    $$$$$:  149-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  149-block  9
+    #####:  150:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:  150-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  151:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:  151-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  152:                {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:  152-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  153:                {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:  153-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  154:
+    #####:  155:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:  155-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  155-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  155-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  155-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  155-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  155-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  155-block  6
+    $$$$$:  155-block  7
+    $$$$$:  155-block  8
+    $$$$$:  155-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  155-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  155-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  155-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  155-block 13
+    $$$$$:  155-block 14
+    $$$$$:  155-block 15
+    $$$$$:  155-block 16
+    $$$$$:  155-block 17
+    #####:  156:}
+    $$$$$:  156-block  0
+    $$$$$:  156-block  1
+    $$$$$:  156-block  2
+    $$$$$:  156-block  3
+    $$$$$:  156-block  4
+    $$$$$:  156-block  5
+    $$$$$:  156-block  6
+    $$$$$:  156-block  7
+        -:  157:
+function __cxx_global_var_init.106 called 1 returned 100% blocks executed 53%
+function _ZN63esEncuestaValidaTEST_validaMenosOIgualA20MiembrosEnElHogar_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN63esEncuestaValidaTEST_validaMenosOIgualA20MiembrosEnElHogar_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN63esEncuestaValidaTEST_validaMenosOIgualA20MiembrosEnElHogar_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN63esEncuestaValidaTEST_validaMenosOIgualA20MiembrosEnElHogar_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN63esEncuestaValidaTEST_validaMenosOIgualA20MiembrosEnElHogar_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN63esEncuestaValidaTEST_validaMenosOIgualA20MiembrosEnElHogar_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  158:TEST(esEncuestaValidaTEST, validaMenosOIgualA20MiembrosEnElHogar) {
+        1:  158-block  0
+        1:  158-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  158-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  158-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  158-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  158-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  158-block  6
+    $$$$$:  158-block  7
+    $$$$$:  158-block  8
+    $$$$$:  158-block  9
+    $$$$$:  158-block 10
+    $$$$$:  158-block 11
+    $$$$$:  158-block 12
+    $$$$$:  158-block 13
+    $$$$$:  158-block 14
+    $$$$$:  158-block 15
+    $$$$$:  158-block 16
+    $$$$$:  158-block 17
+    $$$$$:  158-block 18
+    $$$$$:  158-block 19
+    $$$$$:  158-block 20
+    #####:  159:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2}};
+    $$$$$:  159-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  159-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  159-block  2
+    $$$$$:  159-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  159-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  159-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  159-block  6
+    $$$$$:  159-block  7
+    $$$$$:  159-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  159-block  9
+    $$$$$:  159-block 10
+    #####:  160:    eph_i ti;
+        -:  161:
+    #####:  162:    for (int i = 1; i <= 20; i++) {
+    $$$$$:  162-block  0
+    $$$$$:  162-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  162-block  2
+    #####:  163:        individuo individuo_actual = {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10};
+    $$$$$:  163-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  164:        individuo_actual[COMPONENTE] = i;
+    #####:  165:        ti.push_back(individuo_actual);
+    $$$$$:  165-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  166:    }
+    $$$$$:  166-block  0
+    $$$$$:  166-block  1
+        -:  167:
+    #####:  168:    EXPECT_TRUE(esEncuestaValida(th, ti));
+    $$$$$:  168-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  168-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  168-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  168-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  168-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  168-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  168-block  6
+    $$$$$:  168-block  7
+    $$$$$:  168-block  8
+    $$$$$:  168-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  168-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  168-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  168-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  168-block 13
+    $$$$$:  168-block 14
+    $$$$$:  168-block 15
+    $$$$$:  168-block 16
+    $$$$$:  168-block 17
+    #####:  169:}
+    $$$$$:  169-block  0
+    $$$$$:  169-block  1
+    $$$$$:  169-block  2
+    $$$$$:  169-block  3
+    $$$$$:  169-block  4
+    $$$$$:  169-block  5
+    $$$$$:  169-block  6
+        -:  170:
+function __cxx_global_var_init.110 called 1 returned 100% blocks executed 53%
+function _ZN51esEncuestaValidaTEST_invalidaTrimestreNegativo_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN51esEncuestaValidaTEST_invalidaTrimestreNegativo_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN51esEncuestaValidaTEST_invalidaTrimestreNegativo_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN51esEncuestaValidaTEST_invalidaTrimestreNegativo_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN51esEncuestaValidaTEST_invalidaTrimestreNegativo_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN51esEncuestaValidaTEST_invalidaTrimestreNegativo_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  171:TEST(esEncuestaValidaTEST, invalidaTrimestreNegativo) {
+        1:  171-block  0
+        1:  171-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  171-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  171-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  171-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  171-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  171-block  6
+    $$$$$:  171-block  7
+    $$$$$:  171-block  8
+    $$$$$:  171-block  9
+    $$$$$:  171-block 10
+    $$$$$:  171-block 11
+    $$$$$:  171-block 12
+    $$$$$:  171-block 13
+    $$$$$:  171-block 14
+    $$$$$:  171-block 15
+    $$$$$:  171-block 16
+    $$$$$:  171-block 17
+    $$$$$:  171-block 18
+    $$$$$:  171-block 19
+    $$$$$:  171-block 20
+    #####:  172:    eph_h th = {{22114, 2020,   -3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2}};
+    $$$$$:  172-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  172-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  172-block  2
+    $$$$$:  172-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  172-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  172-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  172-block  6
+    $$$$$:  172-block  7
+    $$$$$:  172-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  172-block  9
+    $$$$$:  172-block 10
+    #####:  173:    eph_i ti = {{22114, 2020,   1,  0,  -3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:  173-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  173-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  173-block  2
+    $$$$$:  173-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  173-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  173-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  173-block  6
+    $$$$$:  173-block  7
+    $$$$$:  173-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  173-block  9
+        -:  174:
+    #####:  175:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:  175-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  175-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  175-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  175-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  175-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  175-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  175-block  6
+    $$$$$:  175-block  7
+    $$$$$:  175-block  8
+    $$$$$:  175-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  175-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  175-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  175-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  175-block 13
+    $$$$$:  175-block 14
+    $$$$$:  175-block 15
+    $$$$$:  175-block 16
+    $$$$$:  175-block 17
+    #####:  176:}
+    $$$$$:  176-block  0
+    $$$$$:  176-block  1
+    $$$$$:  176-block  2
+    $$$$$:  176-block  3
+    $$$$$:  176-block  4
+    $$$$$:  176-block  5
+    $$$$$:  176-block  6
+    $$$$$:  176-block  7
+        -:  177:
+function __cxx_global_var_init.114 called 1 returned 100% blocks executed 53%
+function _ZN48esEncuestaValidaTEST_validaTrimestreEnRango_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN48esEncuestaValidaTEST_validaTrimestreEnRango_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN48esEncuestaValidaTEST_validaTrimestreEnRango_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN48esEncuestaValidaTEST_validaTrimestreEnRango_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN48esEncuestaValidaTEST_validaTrimestreEnRango_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN48esEncuestaValidaTEST_validaTrimestreEnRango_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  178:TEST(esEncuestaValidaTEST, validaTrimestreEnRango) {
+        1:  178-block  0
+        1:  178-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  178-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  178-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  178-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  178-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  178-block  6
+    $$$$$:  178-block  7
+    $$$$$:  178-block  8
+    $$$$$:  178-block  9
+    $$$$$:  178-block 10
+    $$$$$:  178-block 11
+    $$$$$:  178-block 12
+    $$$$$:  178-block 13
+    $$$$$:  178-block 14
+    $$$$$:  178-block 15
+    $$$$$:  178-block 16
+    $$$$$:  178-block 17
+    $$$$$:  178-block 18
+    $$$$$:  178-block 19
+    $$$$$:  178-block 20
+    #####:  179:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2}};
+    $$$$$:  179-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  179-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  179-block  2
+    $$$$$:  179-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  179-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  179-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  179-block  6
+    $$$$$:  179-block  7
+    $$$$$:  179-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  179-block  9
+    $$$$$:  179-block 10
+    #####:  180:    eph_i ti = {{22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:  180-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  180-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  180-block  2
+    $$$$$:  180-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  180-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  180-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  180-block  6
+    $$$$$:  180-block  7
+    $$$$$:  180-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  180-block  9
+    #####:  181:    EXPECT_TRUE(esEncuestaValida(th, ti));
+    $$$$$:  181-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  181-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  181-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  181-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  181-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  181-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  181-block  6
+    $$$$$:  181-block  7
+    $$$$$:  181-block  8
+    $$$$$:  181-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  181-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  181-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  181-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  181-block 13
+    $$$$$:  181-block 14
+    $$$$$:  181-block 15
+    $$$$$:  181-block 16
+    $$$$$:  181-block 17
+        -:  182:
+    #####:  183:    th[0][HOGTRIMESTRE] = 1;
+    #####:  184:    ti[0][INDTRIMESTRE] = 1;
+    #####:  185:    EXPECT_TRUE(esEncuestaValida(th, ti));
+    $$$$$:  185-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  185-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  185-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  185-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  185-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  185-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  185-block  6
+    $$$$$:  185-block  7
+    $$$$$:  185-block  8
+    $$$$$:  185-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  185-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  185-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  185-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  185-block 13
+    $$$$$:  185-block 14
+    $$$$$:  185-block 15
+    $$$$$:  185-block 16
+    $$$$$:  185-block 17
+    #####:  186:}
+    $$$$$:  186-block  0
+    $$$$$:  186-block  1
+    $$$$$:  186-block  2
+    $$$$$:  186-block  3
+    $$$$$:  186-block  4
+    $$$$$:  186-block  5
+    $$$$$:  186-block  6
+    $$$$$:  186-block  7
+    $$$$$:  186-block  8
+    $$$$$:  186-block  9
+    $$$$$:  186-block 10
+    $$$$$:  186-block 11
+        -:  187:
+function __cxx_global_var_init.118 called 1 returned 100% blocks executed 53%
+function _ZN44esEncuestaValidaTEST_validaAnioNegativo_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN44esEncuestaValidaTEST_validaAnioNegativo_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN44esEncuestaValidaTEST_validaAnioNegativo_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN44esEncuestaValidaTEST_validaAnioNegativo_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN44esEncuestaValidaTEST_validaAnioNegativo_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN44esEncuestaValidaTEST_validaAnioNegativo_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  188:TEST(esEncuestaValidaTEST, validaAnioNegativo) {
+        1:  188-block  0
+        1:  188-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  188-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  188-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  188-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  188-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  188-block  6
+    $$$$$:  188-block  7
+    $$$$$:  188-block  8
+    $$$$$:  188-block  9
+    $$$$$:  188-block 10
+    $$$$$:  188-block 11
+    $$$$$:  188-block 12
+    $$$$$:  188-block 13
+    $$$$$:  188-block 14
+    $$$$$:  188-block 15
+    $$$$$:  188-block 16
+    $$$$$:  188-block 17
+    $$$$$:  188-block 18
+    $$$$$:  188-block 19
+    $$$$$:  188-block 20
+    #####:  189:    eph_h th = {{22114, -2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2}};
+    $$$$$:  189-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  189-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  189-block  2
+    $$$$$:  189-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  189-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  189-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  189-block  6
+    $$$$$:  189-block  7
+    $$$$$:  189-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  189-block  9
+    $$$$$:  189-block 10
+    #####:  190:    eph_i ti = {{22114, -2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:  190-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  190-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  190-block  2
+    $$$$$:  190-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  190-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  190-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  190-block  6
+    $$$$$:  190-block  7
+    $$$$$:  190-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  190-block  9
+    #####:  191:    EXPECT_TRUE(esEncuestaValida(th, ti));
+    $$$$$:  191-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  191-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  191-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  191-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  191-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  191-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  191-block  6
+    $$$$$:  191-block  7
+    $$$$$:  191-block  8
+    $$$$$:  191-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  191-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  191-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  191-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  191-block 13
+    $$$$$:  191-block 14
+    $$$$$:  191-block 15
+    $$$$$:  191-block 16
+    $$$$$:  191-block 17
+    #####:  192:}
+    $$$$$:  192-block  0
+    $$$$$:  192-block  1
+    $$$$$:  192-block  2
+    $$$$$:  192-block  3
+    $$$$$:  192-block  4
+    $$$$$:  192-block  5
+    $$$$$:  192-block  6
+    $$$$$:  192-block  7
+        -:  193:
+function __cxx_global_var_init.122 called 1 returned 100% blocks executed 53%
+function _ZN43esEncuestaValidaTEST_validaeph2018_100_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN43esEncuestaValidaTEST_validaeph2018_100_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN43esEncuestaValidaTEST_validaeph2018_100_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN43esEncuestaValidaTEST_validaeph2018_100_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN43esEncuestaValidaTEST_validaeph2018_100_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN43esEncuestaValidaTEST_validaeph2018_100_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  194:TEST(esEncuestaValidaTEST, validaeph2018_100) {
+        1:  194-block  0
+        1:  194-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  194-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  194-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  194-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  194-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  194-block  6
+    $$$$$:  194-block  7
+    $$$$$:  194-block  8
+    $$$$$:  194-block  9
+    $$$$$:  194-block 10
+    $$$$$:  194-block 11
+    $$$$$:  194-block 12
+    $$$$$:  194-block 13
+    $$$$$:  194-block 14
+    $$$$$:  194-block 15
+    $$$$$:  194-block 16
+    $$$$$:  194-block 17
+    $$$$$:  194-block 18
+    $$$$$:  194-block 19
+    $$$$$:  194-block 20
+    #####:  195:    eph_h th;
+    #####:  196:    eph_i ti;
+    #####:  197:    leerEncuesta ( "eph_3c_2018_100", th, ti );
+    $$$$$:  197-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  197-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  197-block  2
+        -:  198:
+    #####:  199:    EXPECT_TRUE(esEncuestaValida(th, ti) );
+    $$$$$:  199-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  199-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  199-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  199-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  199-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  199-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  199-block  6
+    $$$$$:  199-block  7
+    $$$$$:  199-block  8
+    $$$$$:  199-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  199-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  199-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  199-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  199-block 13
+    $$$$$:  199-block 14
+    $$$$$:  199-block 15
+    $$$$$:  199-block 16
+    $$$$$:  199-block 17
+    #####:  200:}
+    $$$$$:  200-block  0
+    $$$$$:  200-block  1
+    $$$$$:  200-block  2
+    $$$$$:  200-block  3
+    $$$$$:  200-block  4
+    $$$$$:  200-block  5
+    $$$$$:  200-block  6
+    $$$$$:  200-block  7
+        -:  201:
+function __cxx_global_var_init.125 called 1 returned 100% blocks executed 53%
+function _ZN43esEncuestaValidaTEST_validaeph2020_100_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN43esEncuestaValidaTEST_validaeph2020_100_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN43esEncuestaValidaTEST_validaeph2020_100_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN43esEncuestaValidaTEST_validaeph2020_100_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN43esEncuestaValidaTEST_validaeph2020_100_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN43esEncuestaValidaTEST_validaeph2020_100_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  202:TEST(esEncuestaValidaTEST, validaeph2020_100) {
+        1:  202-block  0
+        1:  202-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  202-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  202-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  202-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  202-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  202-block  6
+    $$$$$:  202-block  7
+    $$$$$:  202-block  8
+    $$$$$:  202-block  9
+    $$$$$:  202-block 10
+    $$$$$:  202-block 11
+    $$$$$:  202-block 12
+    $$$$$:  202-block 13
+    $$$$$:  202-block 14
+    $$$$$:  202-block 15
+    $$$$$:  202-block 16
+    $$$$$:  202-block 17
+    $$$$$:  202-block 18
+    $$$$$:  202-block 19
+    $$$$$:  202-block 20
+    #####:  203:    eph_h th;
+    #####:  204:    eph_i ti;
+    #####:  205:    leerEncuesta ( "eph_3c_2020_100", th, ti );
+    $$$$$:  205-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  205-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  205-block  2
+        -:  206:
+    #####:  207:    EXPECT_TRUE(  esEncuestaValida(th, ti) );
+    $$$$$:  207-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  207-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  207-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  207-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  207-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  207-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  207-block  6
+    $$$$$:  207-block  7
+    $$$$$:  207-block  8
+    $$$$$:  207-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  207-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  207-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  207-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  207-block 13
+    $$$$$:  207-block 14
+    $$$$$:  207-block 15
+    $$$$$:  207-block 16
+    $$$$$:  207-block 17
+    #####:  208:}
+    $$$$$:  208-block  0
+    $$$$$:  208-block  1
+    $$$$$:  208-block  2
+    $$$$$:  208-block  3
+    $$$$$:  208-block  4
+    $$$$$:  208-block  5
+    $$$$$:  208-block  6
+    $$$$$:  208-block  7
+        -:  209:
+function __cxx_global_var_init.128 called 1 returned 100% blocks executed 53%
+function _ZN54esEncuestaValidaTEST_invalidaHogaresSinIndividuos_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN54esEncuestaValidaTEST_invalidaHogaresSinIndividuos_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN54esEncuestaValidaTEST_invalidaHogaresSinIndividuos_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN54esEncuestaValidaTEST_invalidaHogaresSinIndividuos_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN54esEncuestaValidaTEST_invalidaHogaresSinIndividuos_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN54esEncuestaValidaTEST_invalidaHogaresSinIndividuos_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  210:TEST(esEncuestaValidaTEST, invalidaHogaresSinIndividuos) {
+        1:  210-block  0
+        1:  210-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  210-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  210-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  210-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  210-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  210-block  6
+    $$$$$:  210-block  7
+    $$$$$:  210-block  8
+    $$$$$:  210-block  9
+    $$$$$:  210-block 10
+    $$$$$:  210-block 11
+    $$$$$:  210-block 12
+    $$$$$:  210-block 13
+    $$$$$:  210-block 14
+    $$$$$:  210-block 15
+    $$$$$:  210-block 16
+    $$$$$:  210-block 17
+    $$$$$:  210-block 18
+    $$$$$:  210-block 19
+    $$$$$:  210-block 20
+    #####:  211:    eph_h th = {
+    $$$$$:  211-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  211-block  1
+    $$$$$:  211-block  2
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  211-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  211-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  211-block  5
+    $$$$$:  211-block  6
+    $$$$$:  211-block  7
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  211-block  8
+    $$$$$:  211-block  9
+    #####:  212:            {22114, 2020, 3, 319611, 629088, 3, 41, 0, 1, 3, 1, 2},
+    $$$$$:  212-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  213:            {22866, 2020, 1, 317157, 627217, 2, 42, 1, 1, 2, 5, 2},
+    $$$$$:  213-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  214:            };
+    #####:  215:    eph_i ti = {{22114, 2020, 1, 0, 3, 1, 18, 0, 0, 20000, 10}};
+    $$$$$:  215-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  215-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  215-block  2
+    $$$$$:  215-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  215-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  215-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  215-block  6
+    $$$$$:  215-block  7
+    $$$$$:  215-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  215-block  9
+        -:  216:
+    #####:  217:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:  217-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  217-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  217-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  217-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  217-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  217-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  217-block  6
+    $$$$$:  217-block  7
+    $$$$$:  217-block  8
+    $$$$$:  217-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  217-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  217-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  217-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  217-block 13
+    $$$$$:  217-block 14
+    $$$$$:  217-block 15
+    $$$$$:  217-block 16
+    $$$$$:  217-block 17
+    #####:  218:}
+    $$$$$:  218-block  0
+    $$$$$:  218-block  1
+    $$$$$:  218-block  2
+    $$$$$:  218-block  3
+    $$$$$:  218-block  4
+    $$$$$:  218-block  5
+    $$$$$:  218-block  6
+    $$$$$:  218-block  7
+        -:  219:
+function __cxx_global_var_init.133 called 1 returned 100% blocks executed 53%
+function _ZN53esEncuestaValidaTEST_invalidaMasDe20IndEnElHogar_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN53esEncuestaValidaTEST_invalidaMasDe20IndEnElHogar_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN53esEncuestaValidaTEST_invalidaMasDe20IndEnElHogar_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN53esEncuestaValidaTEST_invalidaMasDe20IndEnElHogar_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN53esEncuestaValidaTEST_invalidaMasDe20IndEnElHogar_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN53esEncuestaValidaTEST_invalidaMasDe20IndEnElHogar_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  220:TEST(esEncuestaValidaTEST, invalidaMasDe20IndEnElHogar) {
+        1:  220-block  0
+        1:  220-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  220-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  220-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  220-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  220-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  220-block  6
+    $$$$$:  220-block  7
+    $$$$$:  220-block  8
+    $$$$$:  220-block  9
+    $$$$$:  220-block 10
+    $$$$$:  220-block 11
+    $$$$$:  220-block 12
+    $$$$$:  220-block 13
+    $$$$$:  220-block 14
+    $$$$$:  220-block 15
+    $$$$$:  220-block 16
+    $$$$$:  220-block 17
+    $$$$$:  220-block 18
+    $$$$$:  220-block 19
+    $$$$$:  220-block 20
+    #####:  221:    eph_h th = {{22114, 2020, 3, 319611, 629088, 3, 41, 0, 1, 3, 1, 2}};
+    $$$$$:  221-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  221-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  221-block  2
+    $$$$$:  221-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  221-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  221-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  221-block  6
+    $$$$$:  221-block  7
+    $$$$$:  221-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  221-block  9
+    $$$$$:  221-block 10
+    #####:  222:    eph_i ti;
+        -:  223:
+    #####:  224:    for (int i = 1; i <= 21; i++) {
+    $$$$$:  224-block  0
+    $$$$$:  224-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  224-block  2
+    #####:  225:        individuo individuo_actual = {22114, 2020, 1, 0, 3, 1, 18, 0, 0, 20000, 10};
+    $$$$$:  225-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  226:        individuo_actual[COMPONENTE] = i;
+    #####:  227:        ti.push_back(individuo_actual);
+    $$$$$:  227-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  228:    }
+    $$$$$:  228-block  0
+    $$$$$:  228-block  1
+        -:  229:
+    #####:  230:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:  230-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  230-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  230-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  230-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  230-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  230-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  230-block  6
+    $$$$$:  230-block  7
+    $$$$$:  230-block  8
+    $$$$$:  230-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  230-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  230-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  230-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  230-block 13
+    $$$$$:  230-block 14
+    $$$$$:  230-block 15
+    $$$$$:  230-block 16
+    $$$$$:  230-block 17
+    #####:  231:}
+    $$$$$:  231-block  0
+    $$$$$:  231-block  1
+    $$$$$:  231-block  2
+    $$$$$:  231-block  3
+    $$$$$:  231-block  4
+    $$$$$:  231-block  5
+    $$$$$:  231-block  6
+        -:  232:
+function __cxx_global_var_init.137 called 1 returned 100% blocks executed 53%
+function _ZN67esEncuestaValidaTEST_invalidaUltimoAtributoDeHogarFueraDeRango_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN67esEncuestaValidaTEST_invalidaUltimoAtributoDeHogarFueraDeRango_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN67esEncuestaValidaTEST_invalidaUltimoAtributoDeHogarFueraDeRango_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN67esEncuestaValidaTEST_invalidaUltimoAtributoDeHogarFueraDeRango_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN67esEncuestaValidaTEST_invalidaUltimoAtributoDeHogarFueraDeRango_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN67esEncuestaValidaTEST_invalidaUltimoAtributoDeHogarFueraDeRango_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  233:TEST(esEncuestaValidaTEST, invalidaUltimoAtributoDeHogarFueraDeRango) {
+        1:  233-block  0
+        1:  233-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  233-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  233-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  233-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  233-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  233-block  6
+    $$$$$:  233-block  7
+    $$$$$:  233-block  8
+    $$$$$:  233-block  9
+    $$$$$:  233-block 10
+    $$$$$:  233-block 11
+    $$$$$:  233-block 12
+    $$$$$:  233-block 13
+    $$$$$:  233-block 14
+    $$$$$:  233-block 15
+    $$$$$:  233-block 16
+    $$$$$:  233-block 17
+    $$$$$:  233-block 18
+    $$$$$:  233-block 19
+    $$$$$:  233-block 20
+    #####:  234:    eph_h th = {{22114, 2020, 3, 319611, 629088, 3, 41, 0, 1, 3, 1, 666}};
+    $$$$$:  234-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  234-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  234-block  2
+    $$$$$:  234-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  234-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  234-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  234-block  6
+    $$$$$:  234-block  7
+    $$$$$:  234-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  234-block  9
+    $$$$$:  234-block 10
+    #####:  235:    eph_i ti = {{22114, 2020, 1, 0, 3, 1, 18, 0, 0, 20000, 10}};
+    $$$$$:  235-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  235-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  235-block  2
+    $$$$$:  235-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  235-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  235-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  235-block  6
+    $$$$$:  235-block  7
+    $$$$$:  235-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  235-block  9
+        -:  236:
+    #####:  237:    EXPECT_FALSE(esEncuestaValida(th, ti));
+    $$$$$:  237-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  237-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  237-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  237-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  237-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  237-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  237-block  6
+    $$$$$:  237-block  7
+    $$$$$:  237-block  8
+    $$$$$:  237-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  237-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  237-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  237-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  237-block 13
+    $$$$$:  237-block 14
+    $$$$$:  237-block 15
+    $$$$$:  237-block 16
+    $$$$$:  237-block 17
+    #####:  238:}
+    $$$$$:  238-block  0
+    $$$$$:  238-block  1
+    $$$$$:  238-block  2
+    $$$$$:  238-block  3
+    $$$$$:  238-block  4
+    $$$$$:  238-block  5
+    $$$$$:  238-block  6
+    $$$$$:  238-block  7

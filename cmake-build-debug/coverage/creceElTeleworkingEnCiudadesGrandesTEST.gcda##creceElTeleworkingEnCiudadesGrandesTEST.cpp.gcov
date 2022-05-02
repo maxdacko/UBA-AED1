@@ -1,0 +1,1249 @@
+        -:    0:Source:/Users/delficomerso/template-alumnos 2/test/creceElTeleworkingEnCiudadesGrandesTEST.cpp
+        -:    0:Graph:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/test/creceElTeleworkingEnCiudadesGrandesTEST.gcno
+        -:    0:Data:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/test/creceElTeleworkingEnCiudadesGrandesTEST.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "../definiciones.h"
+        -:    2:#include "../Funciones_TPI.h"
+        -:    3:#include "../ejercicios.h"
+        -:    4:#include "gtest/gtest.h"
+        -:    5:#include <iostream>
+        -:    6:#include <string>
+        -:    7:
+        -:    8:using namespace std;
+        -:    9:
+function __cxx_global_var_init called 1 returned 100% blocks executed 53%
+function _ZN50creceElTeleworkingEnCiudadesGrandesTEST_crece_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN50creceElTeleworkingEnCiudadesGrandesTEST_crece_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN50creceElTeleworkingEnCiudadesGrandesTEST_crece_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN50creceElTeleworkingEnCiudadesGrandesTEST_crece_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN50creceElTeleworkingEnCiudadesGrandesTEST_crece_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN50creceElTeleworkingEnCiudadesGrandesTEST_crece_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   10:TEST(creceElTeleworkingEnCiudadesGrandesTEST, crece) {
+        1:   10-block  0
+        1:   10-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   10-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   10-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   10-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   10-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   10-block  6
+    $$$$$:   10-block  7
+    $$$$$:   10-block  8
+    $$$$$:   10-block  9
+    $$$$$:   10-block 10
+    $$$$$:   10-block 11
+    $$$$$:   10-block 12
+    $$$$$:   10-block 13
+    $$$$$:   10-block 14
+    $$$$$:   10-block 15
+    $$$$$:   10-block 16
+    $$$$$:   10-block 17
+    $$$$$:   10-block 18
+    $$$$$:   10-block 19
+    $$$$$:   10-block 20
+        -:   11:
+        -:   12:
+        -:   13://                                                        +500  Tipo       Lugar para trabajar
+        -:   14://                                                           v   v           v
+    #####:   15:    eph_h t1h = {{22114, 2018,   3,  319611, 629088, 3,  41, 1,  1,  3,  1,  2}, // Esta no: Sin lugar para trabajar
+    $$$$$:   15-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   15-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   15-block  2
+    $$$$$:   15-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   15-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   15-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   15-block  6
+    $$$$$:   15-block  7
+    $$$$$:   15-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   15-block  9
+    $$$$$:   15-block 10
+    #####:   16:                {31117, 2018,   3,  332870, 642475, 3,  40, 1,  1,  6,  6,  1},
+    $$$$$:   16-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   17:                {22866, 2018,   3,  317157, 627217, 2,  42, 1,  3,  2,  2,  1},// Esta no: Hotel
+    $$$$$:   17-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   18:                {20957, 2018,   3,  313965, 623297, 1,  43, 0,  1,  3,  1,  1}};// Esta no: menos 500
+    $$$$$:   18-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   19:
+        -:   20://                                                                   Ubicación
+        -:   21://                                                                   v
+    #####:   22:    eph_i t1i = {{20957, 2018,   1,  1,  3,  1,  88, 0,  0,  90000,  1},
+    $$$$$:   22-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   22-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   22-block  2
+    $$$$$:   22-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   22-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   22-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   22-block  6
+    $$$$$:   22-block  7
+    $$$$$:   22-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   22-block  9
+    #####:   23:                {20957, 2018,   2,  1,  3,  2,  82, 0,  0,  25000,  1},
+    $$$$$:   23-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   24:                {22866, 2018,   1,  0,  3,  1,  31, 1,  3,  59000,  1},
+    $$$$$:   24-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   25:                {22866, 2018,   2,  1,  3,  2,  28, 1,  3,  0,      6}, // Esta no: Hotel
+    $$$$$:   25-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   26:                {31117, 2018,   3,  0,  3,  2,  46, 1,  3,  17000,  1},
+    $$$$$:   26-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   27:                {31117, 2018,   4,  0,  3,  1,  20, 1,  3,  5000,   6},
+    $$$$$:   27-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   28:                {31117, 2018,   5,  0,  3,  2,  15, 0,  0,  5000,   1},
+    $$$$$:   28-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   29:                {22114, 2018,   1,  0,  3,  1,  18, 0,  0,  20000,  1}};
+    $$$$$:   29-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   30:
+        -:   31:
+        -:   32://                                                        +500  Tipo       Lugar para trabajar
+        -:   33://                                                           v   v           v
+    #####:   34:    eph_h t2h = {{22114, 2020,   3,  319611, 629088, 3,  41, 1,  1,  3,  1,  2}, // Esta no: Sin lugar para trabajar
+    $$$$$:   34-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   34-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   34-block  2
+    $$$$$:   34-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   34-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   34-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   34-block  6
+    $$$$$:   34-block  7
+    $$$$$:   34-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   34-block  9
+    #####:   35:                {31117, 2020,   3,  332870, 642475, 3,  40, 1,  1,  6,  6,  1},
+    $$$$$:   35-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   36:                {22866, 2020,   3,  317157, 627217, 2,  42, 1,  3,  2,  2,  1},// Esta no: Hotel
+    $$$$$:   36-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   37:                {20957, 2020,   3,  313965, 623297, 1,  43, 0,  1,  3,  1,  1}};// Esta no: menos 500
+    $$$$$:   37-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   38:
+    #####:   39:    eph_i t2i = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  1},
+    $$$$$:   39-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   39-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   39-block  2
+    $$$$$:   39-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   39-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   39-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   39-block  6
+    $$$$$:   39-block  7
+    $$$$$:   39-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   39-block  9
+    #####:   40:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  1},
+    $$$$$:   40-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   41:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  1},
+    $$$$$:   41-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   42:                {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6}, // Esta no: Hotel
+    $$$$$:   42-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   43:                {31117, 2020,   3,  0,  3,  2,  46, 1,  3,  17000,  1},
+    $$$$$:   43-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   44:                {31117, 2020,   4,  0,  3,  1,  20, 1,  3,  5000,   6},
+    $$$$$:   44-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   45:                {31117, 2020,   5,  0,  3,  2,  15, 1,  0,  5000,   6},
+    $$$$$:   45-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   46:                {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  1}};
+    $$$$$:   46-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   47:
+    #####:   48:    EXPECT_TRUE(esEncuestaValida(t1h, t1i));
+    $$$$$:   48-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   48-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   48-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   48-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   48-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   48-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   48-block  6
+    $$$$$:   48-block  7
+    $$$$$:   48-block  8
+    $$$$$:   48-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   48-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   48-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   48-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   48-block 13
+    $$$$$:   48-block 14
+    $$$$$:   48-block 15
+    $$$$$:   48-block 16
+    $$$$$:   48-block 17
+    #####:   49:    EXPECT_TRUE(esEncuestaValida(t2h, t2i));
+    $$$$$:   49-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   49-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   49-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   49-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   49-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   49-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   49-block  6
+    $$$$$:   49-block  7
+    $$$$$:   49-block  8
+    $$$$$:   49-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   49-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   49-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   49-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   49-block 13
+    $$$$$:   49-block 14
+    $$$$$:   49-block 15
+    $$$$$:   49-block 16
+    $$$$$:   49-block 17
+        -:   50:
+    #####:   51:    EXPECT_EQ( true, creceElTeleworkingEnCiudadesGrandes(t1h, t1i, t2h, t2i) );
+    $$$$$:   51-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   51-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   51-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   51-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   51-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   51-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   51-block  6
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   51-block  7
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   51-block  8
+    $$$$$:   51-block  9
+    $$$$$:   51-block 10
+    $$$$$:   51-block 11
+    $$$$$:   51-block 12
+    $$$$$:   51-block 13
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   51-block 14
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   51-block 15
+branch 20 never executed
+branch 21 never executed
+    $$$$$:   51-block 16
+branch 22 never executed
+branch 23 never executed
+    $$$$$:   51-block 17
+    $$$$$:   51-block 18
+    $$$$$:   51-block 19
+    $$$$$:   51-block 20
+    #####:   52:}
+    $$$$$:   52-block  0
+    $$$$$:   52-block  1
+    $$$$$:   52-block  2
+    $$$$$:   52-block  3
+    $$$$$:   52-block  4
+    $$$$$:   52-block  5
+    $$$$$:   52-block  6
+    $$$$$:   52-block  7
+    $$$$$:   52-block  8
+    $$$$$:   52-block  9
+    $$$$$:   52-block 10
+    $$$$$:   52-block 11
+    $$$$$:   52-block 12
+    $$$$$:   52-block 13
+    $$$$$:   52-block 14
+    $$$$$:   52-block 15
+    $$$$$:   52-block 16
+    $$$$$:   52-block 17
+    $$$$$:   52-block 18
+        -:   53:
+        -:   54:
+function __cxx_global_var_init.31 called 1 returned 100% blocks executed 53%
+function _ZN52creceElTeleworkingEnCiudadesGrandesTEST_nocrece_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN52creceElTeleworkingEnCiudadesGrandesTEST_nocrece_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN52creceElTeleworkingEnCiudadesGrandesTEST_nocrece_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN52creceElTeleworkingEnCiudadesGrandesTEST_nocrece_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN52creceElTeleworkingEnCiudadesGrandesTEST_nocrece_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN52creceElTeleworkingEnCiudadesGrandesTEST_nocrece_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   55:TEST(creceElTeleworkingEnCiudadesGrandesTEST, nocrece) {
+        1:   55-block  0
+        1:   55-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   55-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   55-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   55-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   55-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   55-block  6
+    $$$$$:   55-block  7
+    $$$$$:   55-block  8
+    $$$$$:   55-block  9
+    $$$$$:   55-block 10
+    $$$$$:   55-block 11
+    $$$$$:   55-block 12
+    $$$$$:   55-block 13
+    $$$$$:   55-block 14
+    $$$$$:   55-block 15
+    $$$$$:   55-block 16
+    $$$$$:   55-block 17
+    $$$$$:   55-block 18
+    $$$$$:   55-block 19
+    $$$$$:   55-block 20
+        -:   56:
+        -:   57://                                                        +500  Tipo       Lugar para trabajar
+        -:   58://                                                           v   v           v
+    #####:   59:    eph_h t1h = {{22114, 2018,   3,  319611, 629088, 3,  41, 1,  1,  3,  1,  2}, // Esta no: Sin lugar para trabajar
+    $$$$$:   59-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   59-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   59-block  2
+    $$$$$:   59-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   59-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   59-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   59-block  6
+    $$$$$:   59-block  7
+    $$$$$:   59-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   59-block  9
+    $$$$$:   59-block 10
+    #####:   60:                 {31117, 2018,   3,  332870, 642475, 3,  40, 1,  1,  6,  6,  1},
+    $$$$$:   60-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   61:                 {22866, 2018,   3,  317157, 627217, 2,  42, 1,  3,  2,  2,  1},// Esta no: Hotel
+    $$$$$:   61-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   62:                 {20957, 2018,   3,  313965, 623297, 1,  43, 0,  1,  3,  1,  1}};// Esta no: menos 500
+    $$$$$:   62-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   63:
+        -:   64://                                                                   Ubicación
+        -:   65://                                                                   v
+    #####:   66:    eph_i t1i = {{20957, 2018,   1,  1,  3,  1,  88, 0,  0,  90000,  1},
+    $$$$$:   66-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   66-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   66-block  2
+    $$$$$:   66-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   66-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   66-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   66-block  6
+    $$$$$:   66-block  7
+    $$$$$:   66-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   66-block  9
+    #####:   67:                 {20957, 2018,   2,  1,  3,  2,  82, 0,  0,  25000,  1},
+    $$$$$:   67-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   68:                 {22866, 2018,   1,  0,  3,  1,  31, 1,  3,  59000,  1},
+    $$$$$:   68-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   69:                 {22866, 2018,   2,  1,  3,  2,  28, 1,  3,  0,      6}, // Esta no: Hotel
+    $$$$$:   69-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   70:                 {31117, 2018,   3,  0,  3,  2,  46, 1,  3,  17000,  1},
+    $$$$$:   70-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   71:                 {31117, 2018,   4,  0,  3,  1,  20, 1,  3,  5000,   6},
+    $$$$$:   71-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   72:                 {31117, 2018,   5,  0,  3,  2,  15, 0,  0,  5000,   1},
+    $$$$$:   72-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   73:                 {22114, 2018,   1,  0,  3,  1,  18, 0,  0,  20000,  1}};
+    $$$$$:   73-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   74:
+        -:   75:
+        -:   76://                                                        +500  Tipo       Lugar para trabajar
+        -:   77://                                                           v   v           v
+    #####:   78:    eph_h t2h = {{22114, 2020,   3,  319611, 629088, 3,  41, 1,  1,  3,  1,  2}, // Esta no: Sin lugar para trabajar
+    $$$$$:   78-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   78-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   78-block  2
+    $$$$$:   78-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   78-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   78-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   78-block  6
+    $$$$$:   78-block  7
+    $$$$$:   78-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   78-block  9
+    #####:   79:                 {31117, 2020,   3,  332870, 642475, 3,  40, 1,  1,  6,  6,  1},
+    $$$$$:   79-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   80:                 {22866, 2020,   3,  317157, 627217, 2,  42, 1,  3,  2,  2,  1},// Esta no: Hotel
+    $$$$$:   80-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   81:                 {20957, 2020,   3,  313965, 623297, 1,  43, 0,  1,  3,  1,  1}};// Esta no: menos 500
+    $$$$$:   81-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   82:
+    #####:   83:    eph_i t2i = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  1},
+    $$$$$:   83-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   83-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   83-block  2
+    $$$$$:   83-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   83-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   83-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   83-block  6
+    $$$$$:   83-block  7
+    $$$$$:   83-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   83-block  9
+    #####:   84:                 {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  1},
+    $$$$$:   84-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   85:                 {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  1},
+    $$$$$:   85-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   86:                 {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6}, // Esta no: Hotel
+    $$$$$:   86-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   87:                 {31117, 2020,   3,  0,  3,  2,  46, 1,  3,  17000,  1},
+    $$$$$:   87-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   88:                 {31117, 2020,   4,  0,  3,  1,  20, 1,  3,  5000,   6},
+    $$$$$:   88-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   89:                 {31117, 2020,   5,  0,  3,  2,  15, -1,  0,  5000,   6}, // estado no informado
+    $$$$$:   89-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   90:                 {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  1}};
+    $$$$$:   90-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   91:
+    #####:   92:    EXPECT_TRUE(esEncuestaValida(t1h, t1i));
+    $$$$$:   92-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   92-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   92-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   92-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   92-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   92-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   92-block  6
+    $$$$$:   92-block  7
+    $$$$$:   92-block  8
+    $$$$$:   92-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   92-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   92-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   92-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   92-block 13
+    $$$$$:   92-block 14
+    $$$$$:   92-block 15
+    $$$$$:   92-block 16
+    $$$$$:   92-block 17
+    #####:   93:    EXPECT_TRUE(esEncuestaValida(t2h, t2i));
+    $$$$$:   93-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   93-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   93-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   93-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   93-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   93-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   93-block  6
+    $$$$$:   93-block  7
+    $$$$$:   93-block  8
+    $$$$$:   93-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   93-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   93-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   93-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   93-block 13
+    $$$$$:   93-block 14
+    $$$$$:   93-block 15
+    $$$$$:   93-block 16
+    $$$$$:   93-block 17
+        -:   94:
+    #####:   95:    EXPECT_FALSE(creceElTeleworkingEnCiudadesGrandes(t1h, t1i, t2h, t2i) );
+    $$$$$:   95-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   95-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   95-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   95-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   95-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   95-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   95-block  6
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   95-block  7
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   95-block  8
+    $$$$$:   95-block  9
+    $$$$$:   95-block 10
+    $$$$$:   95-block 11
+    $$$$$:   95-block 12
+    $$$$$:   95-block 13
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   95-block 14
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   95-block 15
+branch 20 never executed
+branch 21 never executed
+    $$$$$:   95-block 16
+branch 22 never executed
+branch 23 never executed
+    $$$$$:   95-block 17
+    $$$$$:   95-block 18
+    $$$$$:   95-block 19
+    $$$$$:   95-block 20
+    $$$$$:   95-block 21
+    #####:   96:}
+    $$$$$:   96-block  0
+    $$$$$:   96-block  1
+    $$$$$:   96-block  2
+    $$$$$:   96-block  3
+    $$$$$:   96-block  4
+    $$$$$:   96-block  5
+    $$$$$:   96-block  6
+    $$$$$:   96-block  7
+    $$$$$:   96-block  8
+    $$$$$:   96-block  9
+    $$$$$:   96-block 10
+    $$$$$:   96-block 11
+    $$$$$:   96-block 12
+    $$$$$:   96-block 13
+    $$$$$:   96-block 14
+    $$$$$:   96-block 15
+    $$$$$:   96-block 16
+    $$$$$:   96-block 17
+    $$$$$:   96-block 18
+    $$$$$:   96-block 19
+        -:   97:
+function __cxx_global_var_init.57 called 1 returned 100% blocks executed 53%
+function _ZN57creceElTeleworkingEnCiudadesGrandesTEST_eph2016a2018_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN57creceElTeleworkingEnCiudadesGrandesTEST_eph2016a2018_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN57creceElTeleworkingEnCiudadesGrandesTEST_eph2016a2018_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN57creceElTeleworkingEnCiudadesGrandesTEST_eph2016a2018_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN57creceElTeleworkingEnCiudadesGrandesTEST_eph2016a2018_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN57creceElTeleworkingEnCiudadesGrandesTEST_eph2016a2018_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   98:TEST(creceElTeleworkingEnCiudadesGrandesTEST, eph2016a2018) {
+        1:   98-block  0
+        1:   98-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   98-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   98-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   98-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   98-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   98-block  6
+    $$$$$:   98-block  7
+    $$$$$:   98-block  8
+    $$$$$:   98-block  9
+    $$$$$:   98-block 10
+    $$$$$:   98-block 11
+    $$$$$:   98-block 12
+    $$$$$:   98-block 13
+    $$$$$:   98-block 14
+    $$$$$:   98-block 15
+    $$$$$:   98-block 16
+    $$$$$:   98-block 17
+    $$$$$:   98-block 18
+    $$$$$:   98-block 19
+    $$$$$:   98-block 20
+    #####:   99:    eph_h t1h;
+    #####:  100:    eph_i t1i;
+    #####:  101:    leerEncuesta ( "eph_3c_2018_1000", t1h, t1i );
+    $$$$$:  101-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  101-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  101-block  2
+        -:  102:
+    #####:  103:    eph_h t2h;
+    #####:  104:    eph_i t2i;
+    #####:  105:    leerEncuesta ( "eph_3c_2020_1000", t2h, t2i );
+    $$$$$:  105-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  105-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  105-block  2
+        -:  106:
+    #####:  107:    EXPECT_TRUE(creceElTeleworkingEnCiudadesGrandes(t1h, t1i, t2h, t2i) );
+    $$$$$:  107-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  107-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  107-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  107-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  107-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  107-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  107-block  6
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  107-block  7
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  107-block  8
+    $$$$$:  107-block  9
+    $$$$$:  107-block 10
+    $$$$$:  107-block 11
+    $$$$$:  107-block 12
+    $$$$$:  107-block 13
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  107-block 14
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  107-block 15
+branch 20 never executed
+branch 21 never executed
+    $$$$$:  107-block 16
+branch 22 never executed
+branch 23 never executed
+    $$$$$:  107-block 17
+    $$$$$:  107-block 18
+    $$$$$:  107-block 19
+    $$$$$:  107-block 20
+    $$$$$:  107-block 21
+    #####:  108:}
+    $$$$$:  108-block  0
+    $$$$$:  108-block  1
+    $$$$$:  108-block  2
+    $$$$$:  108-block  3
+    $$$$$:  108-block  4
+    $$$$$:  108-block  5
+    $$$$$:  108-block  6
+    $$$$$:  108-block  7
+    $$$$$:  108-block  8
+    $$$$$:  108-block  9
+    $$$$$:  108-block 10
+    $$$$$:  108-block 11
+        -:  109:
+function __cxx_global_var_init.61 called 1 returned 100% blocks executed 53%
+function _ZN60creceElTeleworkingEnCiudadesGrandesTEST_sinTrabajadores_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN60creceElTeleworkingEnCiudadesGrandesTEST_sinTrabajadores_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN60creceElTeleworkingEnCiudadesGrandesTEST_sinTrabajadores_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN60creceElTeleworkingEnCiudadesGrandesTEST_sinTrabajadores_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN60creceElTeleworkingEnCiudadesGrandesTEST_sinTrabajadores_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN60creceElTeleworkingEnCiudadesGrandesTEST_sinTrabajadores_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:  110:TEST(creceElTeleworkingEnCiudadesGrandesTEST, sinTrabajadores) {
+        1:  110-block  0
+        1:  110-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:  110-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:  110-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:  110-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:  110-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:  110-block  6
+    $$$$$:  110-block  7
+    $$$$$:  110-block  8
+    $$$$$:  110-block  9
+    $$$$$:  110-block 10
+    $$$$$:  110-block 11
+    $$$$$:  110-block 12
+    $$$$$:  110-block 13
+    $$$$$:  110-block 14
+    $$$$$:  110-block 15
+    $$$$$:  110-block 16
+    $$$$$:  110-block 17
+    $$$$$:  110-block 18
+    $$$$$:  110-block 19
+    $$$$$:  110-block 20
+        -:  111:
+        -:  112:    //                                                        +500  Tipo       Lugar para trabajar
+        -:  113:    //                                                           v   v           v
+    #####:  114:    eph_h t1h = {{22114, 2018, 3, 319611, 629088, 3, 41, 1, 1, 3, 1, 2}, // Esta no: Sin lugar para trabajar
+    $$$$$:  114-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  114-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  114-block  2
+    $$$$$:  114-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  114-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  114-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  114-block  6
+    $$$$$:  114-block  7
+    $$$$$:  114-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  114-block  9
+    $$$$$:  114-block 10
+    #####:  115:                 {31117, 2018, 3, 332870, 642475, 3, 40, 1, 1, 6, 6, 1},
+    $$$$$:  115-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  116:                 {22866, 2018, 3, 317157, 627217, 2, 42, 1, 3, 2, 2, 1},// Esta no: Hotel
+    $$$$$:  116-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  117:                 {20957, 2018, 3, 313965, 623297, 1, 43, 0, 1, 3, 1, 1}};// Esta no: menos 500
+    $$$$$:  117-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  118:
+        -:  119:                 //                                                                   Ubicación
+        -:  120:                 //                                                                   v
+    #####:  121:                 eph_i t1i = {{20957, 2018, 1, 1, 3, 1, 88, 0,  0, 90000, 1},
+    $$$$$:  121-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  121-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  121-block  2
+    $$$$$:  121-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  121-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  121-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  121-block  6
+    $$$$$:  121-block  7
+    $$$$$:  121-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  121-block  9
+    #####:  122:                              {20957, 2018, 2, 1, 3, 2, 82, 0,  0, 25000, 1},
+    $$$$$:  122-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  123:                              {22866, 2018, 1, 0, 3, 1, 31, 0,  3, 59000, 1},
+    $$$$$:  123-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  124:                              {22866, 2018, 2, 1, 3, 2, 28, 0,  3, 0,     6}, // Esta no: Hotel
+    $$$$$:  124-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  125:                              {31117, 2018, 3, 0, 3, 2, 46, 0,  3, 17000, 1},
+    $$$$$:  125-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  126:                              {31117, 2018, 4, 0, 3, 1, 20, -1, 3, 5000,  6},
+    $$$$$:  126-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  127:                              {31117, 2018, 5, 0, 3, 2, 15, -1, 0, 5000,  1},
+    $$$$$:  127-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  128:                              {22114, 2018, 1, 0, 3, 1, 18, 0,  0, 20000, 1}};
+    $$$$$:  128-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  129:
+        -:  130:
+        -:  131:                 //                                                        +500  Tipo       Lugar para trabajar
+        -:  132:                 //                                                           v   v           v
+    #####:  133:                 eph_h t2h = {{22114, 2020, 3, 319611, 629088, 3, 41, 1, 1, 3, 1, 2}, // Esta no: Sin lugar para trabajar
+    $$$$$:  133-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  133-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  133-block  2
+    $$$$$:  133-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  133-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  133-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  133-block  6
+    $$$$$:  133-block  7
+    $$$$$:  133-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  133-block  9
+    #####:  134:                              {31117, 2020, 3, 332870, 642475, 3, 40, 1, 1, 6, 6, 1},
+    $$$$$:  134-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  135:                              {22866, 2020, 3, 317157, 627217, 2, 42, 1, 3, 2, 2, 1},// Esta no: Hotel
+    $$$$$:  135-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  136:                              {20957, 2020, 3, 313965, 623297, 1, 43, 0, 1, 3, 1, 1}};// Esta no: menos 500
+    $$$$$:  136-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  137:
+    #####:  138:                              eph_i t2i = {{20957, 2020, 1, 1, 3, 1, 88, 0,  0, 90000, 1},
+    $$$$$:  138-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  138-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  138-block  2
+    $$$$$:  138-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  138-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  138-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  138-block  6
+    $$$$$:  138-block  7
+    $$$$$:  138-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  138-block  9
+    #####:  139:                                           {20957, 2020, 2, 1, 3, 2, 82, 0,  0, 25000, 1},
+    $$$$$:  139-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  140:                                           {22866, 2020, 1, 0, 3, 1, 31, -1, 3, 59000, 1},
+    $$$$$:  140-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  141:                                           {22866, 2020, 2, 1, 3, 2, 28, -1, 3, 0,     6}, // Esta no: Hotel
+    $$$$$:  141-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  142:                                           {31117, 2020, 3, 0, 3, 2, 46, 0,  3, 17000, 1},
+    $$$$$:  142-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  143:                                           {31117, 2020, 4, 0, 3, 1, 20, 0,  3, 5000,  6},
+    $$$$$:  143-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  144:                                           {31117, 2020, 5, 0, 3, 2, 15, 0,  0, 5000,  6},
+    $$$$$:  144-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  145:                                           {22114, 2020, 1, 0, 3, 1, 18, 0,  0, 20000, 1}};
+    $$$$$:  145-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  146:
+    #####:  147:                              EXPECT_TRUE(esEncuestaValida(t1h, t1i));
+    $$$$$:  147-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  147-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  147-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  147-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  147-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  147-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  147-block  6
+    $$$$$:  147-block  7
+    $$$$$:  147-block  8
+    $$$$$:  147-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  147-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  147-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  147-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  147-block 13
+    $$$$$:  147-block 14
+    $$$$$:  147-block 15
+    $$$$$:  147-block 16
+    $$$$$:  147-block 17
+    #####:  148:                              EXPECT_TRUE(esEncuestaValida(t2h, t2i));
+    $$$$$:  148-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  148-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  148-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  148-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  148-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  148-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  148-block  6
+    $$$$$:  148-block  7
+    $$$$$:  148-block  8
+    $$$$$:  148-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  148-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  148-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  148-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  148-block 13
+    $$$$$:  148-block 14
+    $$$$$:  148-block 15
+    $$$$$:  148-block 16
+    $$$$$:  148-block 17
+        -:  149:
+    #####:  150:                              EXPECT_EQ(false, creceElTeleworkingEnCiudadesGrandes(t1h, t1i, t2h, t2i));
+    $$$$$:  150-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  150-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  150-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  150-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  150-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  150-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  150-block  6
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  150-block  7
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  150-block  8
+    $$$$$:  150-block  9
+    $$$$$:  150-block 10
+    $$$$$:  150-block 11
+    $$$$$:  150-block 12
+    $$$$$:  150-block 13
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  150-block 14
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  150-block 15
+branch 20 never executed
+branch 21 never executed
+    $$$$$:  150-block 16
+branch 22 never executed
+branch 23 never executed
+    $$$$$:  150-block 17
+    $$$$$:  150-block 18
+    $$$$$:  150-block 19
+    $$$$$:  150-block 20
+    #####:  151:}
+    $$$$$:  151-block  0
+    $$$$$:  151-block  1
+    $$$$$:  151-block  2
+    $$$$$:  151-block  3
+    $$$$$:  151-block  4
+    $$$$$:  151-block  5
+    $$$$$:  151-block  6
+    $$$$$:  151-block  7
+    $$$$$:  151-block  8
+    $$$$$:  151-block  9
+    $$$$$:  151-block 10
+    $$$$$:  151-block 11
+    $$$$$:  151-block 12
+    $$$$$:  151-block 13
+    $$$$$:  151-block 14
+    $$$$$:  151-block 15
+    $$$$$:  151-block 16
+    $$$$$:  151-block 17
+    $$$$$:  151-block 18

@@ -1,0 +1,724 @@
+        -:    0:Source:/Users/delficomerso/template-alumnos 2/test/ordenarRegionYCODUSUTEST.cpp
+        -:    0:Graph:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/test/ordenarRegionYCODUSUTEST.gcno
+        -:    0:Data:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/test/ordenarRegionYCODUSUTEST.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "../definiciones.h"
+        -:    2:#include "../Funciones_TPI.h"
+        -:    3:#include "../ejercicios.h"
+        -:    4:#include "gtest/gtest.h"
+        -:    5:#include <iostream>
+        -:    6:#include <string>
+        -:    7:#include "../auxiliares.h"
+        -:    8:
+        -:    9:using namespace std;
+        -:   10:
+function __cxx_global_var_init called 1 returned 100% blocks executed 53%
+function _ZN47ordenarRegionYCODUSUTEST_regionesDistintas_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN47ordenarRegionYCODUSUTEST_regionesDistintas_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN47ordenarRegionYCODUSUTEST_regionesDistintas_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN47ordenarRegionYCODUSUTEST_regionesDistintas_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN47ordenarRegionYCODUSUTEST_regionesDistintas_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN47ordenarRegionYCODUSUTEST_regionesDistintas_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   11:TEST(ordenarRegionYCODUSUTEST, regionesDistintas) {
+        1:   11-block  0
+        1:   11-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   11-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   11-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   11-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   11-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   11-block  6
+    $$$$$:   11-block  7
+    $$$$$:   11-block  8
+    $$$$$:   11-block  9
+    $$$$$:   11-block 10
+    $$$$$:   11-block 11
+    $$$$$:   11-block 12
+    $$$$$:   11-block 13
+    $$$$$:   11-block 14
+    $$$$$:   11-block 15
+    $$$$$:   11-block 16
+    $$$$$:   11-block 17
+    $$$$$:   11-block 18
+    $$$$$:   11-block 19
+    $$$$$:   11-block 20
+        -:   12:
+    #####:   13:    eph_h th = {{22114, 2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2},
+    $$$$$:   13-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   13-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   13-block  2
+    $$$$$:   13-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   13-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   13-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   13-block  6
+    $$$$$:   13-block  7
+    $$$$$:   13-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   13-block  9
+    $$$$$:   13-block 10
+    #####:   14:                {31117, 2020,   3,  332870, 642475, 3,  40, 0,  1,  6,  6,  2},
+    $$$$$:   14-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   15:                {22866, 2020,   3,  317157, 627217, 2,  1, 1,  1,  2,  2,  2},
+    $$$$$:   15-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   16:                {20957, 2020,   3,  313965, 623297, 1,  40, 0,  1,  3,  1,  2}};
+    $$$$$:   16-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   17:
+    #####:   18:    eph_i ti = {{20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:   18-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   18-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   18-block  2
+    $$$$$:   18-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   18-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   18-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   18-block  6
+    $$$$$:   18-block  7
+    $$$$$:   18-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   18-block  9
+    #####:   19:                {31117, 2020,   1,  0,  3,  1,  58, 1,  3,  22000,  1},
+    $$$$$:   19-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   20:                {31117, 2020,   2,  0,  3,  2,  54, 1,  1,  -1,     1},
+    $$$$$:   20-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   21:                {31117, 2020,   3,  0,  3,  2,  46, 1,  3,  17000,  1},
+    $$$$$:   21-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   22:                {31117, 2020,   4,  0,  3,  1,  20, 1,  3,  5000,   1},
+    $$$$$:   22-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   23:                {31117, 2020,   6,  0,  3,  1,  7,  0,  0,  0,      10},
+    $$$$$:   23-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   24:                {31117, 2020,   5,  0,  3,  2,  15, 0,  0,  5000,   10},
+    $$$$$:   24-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   25:                {31117, 2020,   8,  0,  3,  2,  11, 0,  0,  0,      10},
+    $$$$$:   25-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   26:                {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   26-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   27:                {31117, 2020,   10, 0,  3,  1,  28, 1,  3,  5000,   1},
+    $$$$$:   27-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   28:                {31117, 2020,   9,  0,  3,  1,  50, 0,  2,  0,      10},
+    $$$$$:   28-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   29:                {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:   29-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   30:                {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   30-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   31:                {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:   31-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   32:
+    #####:   33:    eph_h th_esperado = {   {22866, 2020,   3,  317157, 627217, 2,  1, 1,  1,  2,  2,  2},
+    $$$$$:   33-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   33-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   33-block  2
+    $$$$$:   33-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   33-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   33-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   33-block  6
+    $$$$$:   33-block  7
+    $$$$$:   33-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   33-block  9
+    #####:   34:                            {20957, 2020,   3,  313965, 623297, 1,  40, 0,  1,  3,  1,  2},
+    $$$$$:   34-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   35:                            {31117, 2020,   3,  332870, 642475, 3,  40, 0,  1,  6,  6,  2},
+    $$$$$:   35-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   36:                            {22114, 2020,   3,  319611, 629088, 3,  41, 0,  1,  3,  1,  2}};
+    $$$$$:   36-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   37:
+    #####:   38:    eph_i ti_esperado = { {22866, 2020,   1,  0,  3,  1,  31, 1,  3,  59000,  10},
+    $$$$$:   38-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   38-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   38-block  2
+    $$$$$:   38-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   38-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   38-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   38-block  6
+    $$$$$:   38-block  7
+    $$$$$:   38-block  8
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   38-block  9
+    #####:   39:                          {22866, 2020,   2,  1,  3,  2,  28, 1,  3,  0,      6},
+    $$$$$:   39-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   40:                          {20957, 2020,   1,  1,  3,  1,  88, 0,  0,  90000,  10},
+    $$$$$:   40-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   41:                          {20957, 2020,   2,  1,  3,  2,  82, 0,  0,  25000,  10},
+    $$$$$:   41-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   42:                          {31117, 2020,   1,  0,  3,  1,  58, 1,  3,  22000,  1},
+    $$$$$:   42-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   43:                          {31117, 2020,   2,  0,  3,  2,  54, 1,  1,  -1,     1},
+    $$$$$:   43-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   44:                          {31117, 2020,   3,  0,  3,  2,  46, 1,  3,  17000,  1},
+    $$$$$:   44-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   45:                          {31117, 2020,   4,  0,  3,  1,  20, 1,  3,  5000,   1},
+    $$$$$:   45-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   46:                          {31117, 2020,   5,  0,  3,  2,  15, 0,  0,  5000,   10},
+    $$$$$:   46-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   47:                          {31117, 2020,   6,  0,  3,  1,  7,  0,  0,  0,      10},
+    $$$$$:   47-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   48:                          {31117, 2020,   8,  0,  3,  2,  11, 0,  0,  0,      10},
+    $$$$$:   48-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   49:                          {31117, 2020,   9,  0,  3,  1,  50, 0,  2,  0,      10},
+    $$$$$:   49-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   50:                          {31117, 2020,   10, 0,  3,  1,  28, 1,  3,  5000,   1},
+    $$$$$:   50-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   51:                          {22114, 2020,   1,  0,  3,  1,  18, 0,  0,  20000,  10}};
+    $$$$$:   51-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   52:
+        -:   53:
+    #####:   54:    ASSERT_TRUE(esEncuestaValida(th,ti));
+    $$$$$:   54-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   54-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   54-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   54-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   54-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   54-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   54-block  6
+    $$$$$:   54-block  7
+    $$$$$:   54-block  8
+    $$$$$:   54-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   54-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   54-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   54-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   54-block 13
+    $$$$$:   54-block 14
+    $$$$$:   54-block 15
+    $$$$$:   54-block 16
+    $$$$$:   54-block 17
+    $$$$$:   54-block 18
+branch 20 never executed
+branch 21 never executed
+    $$$$$:   54-block 19
+    #####:   55:    ASSERT_TRUE(esEncuestaValida(th_esperado,ti_esperado));
+    $$$$$:   55-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   55-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   55-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   55-block  3
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   55-block  4
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   55-block  5
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   55-block  6
+    $$$$$:   55-block  7
+    $$$$$:   55-block  8
+    $$$$$:   55-block  9
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   55-block 10
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   55-block 11
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   55-block 12
+branch 18 never executed
+branch 19 never executed
+    $$$$$:   55-block 13
+    $$$$$:   55-block 14
+    $$$$$:   55-block 15
+    $$$$$:   55-block 16
+    $$$$$:   55-block 17
+    $$$$$:   55-block 18
+branch 20 never executed
+branch 21 never executed
+    $$$$$:   55-block 19
+        -:   56:
+    #####:   57:    ordenarRegionYCODUSU(th, ti);
+    $$$$$:   57-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   58:    EXPECT_EQ(th_esperado, th);
+    $$$$$:   58-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   58-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   58-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   58-block  3
+    $$$$$:   58-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   58-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   58-block  6
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   58-block  7
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   58-block  8
+    $$$$$:   58-block  9
+    $$$$$:   58-block 10
+    $$$$$:   58-block 11
+    #####:   59:    EXPECT_EQ(ti_esperado, ti);
+    $$$$$:   59-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   59-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   59-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   59-block  3
+    $$$$$:   59-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   59-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   59-block  6
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   59-block  7
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   59-block  8
+    $$$$$:   59-block  9
+    $$$$$:   59-block 10
+    $$$$$:   59-block 11
+        -:   60:
+    #####:   61:}
+    $$$$$:   61-block  0
+    $$$$$:   61-block  1
+    $$$$$:   61-block  2
+    $$$$$:   61-block  3
+    $$$$$:   61-block  4
+    $$$$$:   61-block  5
+    $$$$$:   61-block  6
+    $$$$$:   61-block  7
+    $$$$$:   61-block  8
+    $$$$$:   61-block  9
+    $$$$$:   61-block 10
+    $$$$$:   61-block 11
+    $$$$$:   61-block 12
+    $$$$$:   61-block 13
+    $$$$$:   61-block 14
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   61-block 15
+    $$$$$:   61-block 16
+    $$$$$:   61-block 17
+    $$$$$:   61-block 18
+    $$$$$:   61-block 19
+        -:   62:
+function __cxx_global_var_init.46 called 1 returned 100% blocks executed 53%
+function _ZN61ordenarRegionYCODUSUTEST_mismaRegionHOGCODOSUDesordenado_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+function _ZN61ordenarRegionYCODUSUTEST_mismaRegionHOGCODOSUDesordenado_TestD1Ev called 0 returned 0% blocks executed 0%
+function _ZN61ordenarRegionYCODUSUTEST_mismaRegionHOGCODOSUDesordenado_TestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN61ordenarRegionYCODUSUTEST_mismaRegionHOGCODOSUDesordenado_TestC1Ev called 0 returned 0% blocks executed 0%
+function _ZN61ordenarRegionYCODUSUTEST_mismaRegionHOGCODOSUDesordenado_TestC2Ev called 0 returned 0% blocks executed 0%
+function _ZN61ordenarRegionYCODUSUTEST_mismaRegionHOGCODOSUDesordenado_TestD2Ev called 0 returned 0% blocks executed 0%
+        1:   63:TEST(ordenarRegionYCODUSUTEST, mismaRegionHOGCODOSUDesordenado) {
+        1:   63-block  0
+        1:   63-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:   63-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:   63-block  3
+branch  4 taken 1
+branch  5 taken 0
+        1:   63-block  4
+branch  6 taken 1
+branch  7 taken 0
+        1:   63-block  5
+branch  8 taken 1
+branch  9 taken 0
+        1:   63-block  6
+    $$$$$:   63-block  7
+    $$$$$:   63-block  8
+    $$$$$:   63-block  9
+    $$$$$:   63-block 10
+    $$$$$:   63-block 11
+    $$$$$:   63-block 12
+    $$$$$:   63-block 13
+    $$$$$:   63-block 14
+    $$$$$:   63-block 15
+    $$$$$:   63-block 16
+    $$$$$:   63-block 17
+    $$$$$:   63-block 18
+    $$$$$:   63-block 19
+    $$$$$:   63-block 20
+        -:   64:
+    #####:   65:    eph_h th = {
+    $$$$$:   65-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   65-block  1
+    $$$$$:   65-block  2
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   65-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   65-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   65-block  5
+    $$$$$:   65-block  6
+    $$$$$:   65-block  7
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   65-block  8
+    $$$$$:   65-block  9
+    #####:   66:            {960,  2017, 1, 1, 1, 0, 40, 4, 1, 2},
+    $$$$$:   66-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   67:            {334,  2017, 1, 1, 2, 0, 40, 3, 1, 2},
+    $$$$$:   67-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   68:            {340,  2017, 1, 1, 2, 0, 40, 3, 1, 2},
+    $$$$$:   68-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   69:            };
+        -:   70:
+    #####:   71:    eph_i ti = {
+    $$$$$:   71-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   71-block  1
+    $$$$$:   71-block  2
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   71-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   71-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   71-block  5
+    $$$$$:   71-block  6
+    $$$$$:   71-block  7
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   71-block  8
+    #####:   72:            {334,  2017, 1, 1, 0, 1, 36, 1,  3, 16300, 1},
+    $$$$$:   72-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   73:            {960,  2017, 3, 1, 1, 2, 51, 1,  4, 1280,  1},
+    $$$$$:   73-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   74:            {960,  2017, 2, 1, 0, 2, 20, 1,  3, 7000,  1},
+    $$$$$:   74-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   75:            {960,  2017, 1, 1, 0, 2, 19, 0,  0, 0,     6},
+    $$$$$:   75-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   76:            {340,  2017, 2, 1, 0, 2, 20, 1,  3, 7000,  1},
+    $$$$$:   76-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   77:            {340,  2017, 1, 1, 0, 2, 19, 0,  0, 0,     6}
+    $$$$$:   77-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   78:    };
+        -:   79:
+    #####:   80:    eph_h th_esperado = {
+    $$$$$:   80-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   80-block  1
+    $$$$$:   80-block  2
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   80-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   80-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   80-block  5
+    $$$$$:   80-block  6
+    $$$$$:   80-block  7
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   80-block  8
+    #####:   81:            {334,  2017, 1, 1, 2, 0, 40, 3, 1, 2},
+    $$$$$:   81-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   82:            {340,  2017, 1, 1, 2, 0, 40, 3, 1, 2},
+    $$$$$:   82-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   83:            {960,  2017, 1, 1, 1, 0, 40, 4, 1, 2},
+    $$$$$:   83-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   84:            };
+        -:   85:
+    #####:   86:    eph_i ti_esperado = {
+    $$$$$:   86-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   86-block  1
+    $$$$$:   86-block  2
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   86-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   86-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   86-block  5
+    $$$$$:   86-block  6
+    $$$$$:   86-block  7
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   86-block  8
+    #####:   87:            {334,  2017, 1, 1, 0, 1, 36, 1,  3, 16300, 1},
+    $$$$$:   87-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   88:            {340,  2017, 1, 1, 0, 2, 19, 0,  0, 0,     6},
+    $$$$$:   88-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   89:            {340,  2017, 2, 1, 0, 2, 20, 1,  3, 7000,  1},
+    $$$$$:   89-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   90:            {960,  2017, 1, 1, 0, 2, 19, 0,  0, 0,     6},
+    $$$$$:   90-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   91:            {960,  2017, 2, 1, 0, 2, 20, 1,  3, 7000,  1},
+    $$$$$:   91-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   92:            {960,  2017, 3, 1, 1, 2, 51, 1,  4, 1280,  1},
+    $$$$$:   92-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   93:            };
+        -:   94:
+        -:   95:
+    #####:   96:    ordenarRegionYCODUSU(th, ti);
+    $$$$$:   96-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   97:    EXPECT_EQ(th_esperado, th);
+    $$$$$:   97-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   97-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   97-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   97-block  3
+    $$$$$:   97-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   97-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   97-block  6
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   97-block  7
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   97-block  8
+    $$$$$:   97-block  9
+    $$$$$:   97-block 10
+    $$$$$:   97-block 11
+    #####:   98:    EXPECT_EQ(ti_esperado, ti);
+    $$$$$:   98-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   98-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   98-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   98-block  3
+    $$$$$:   98-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   98-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   98-block  6
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   98-block  7
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   98-block  8
+    $$$$$:   98-block  9
+    $$$$$:   98-block 10
+    $$$$$:   98-block 11
+        -:   99:
+    #####:  100:}
+    $$$$$:  100-block  0
+    $$$$$:  100-block  1
+    $$$$$:  100-block  2
+    $$$$$:  100-block  3
+    $$$$$:  100-block  4
+    $$$$$:  100-block  5
+    $$$$$:  100-block  6
+    $$$$$:  100-block  7
+    $$$$$:  100-block  8
+    $$$$$:  100-block  9

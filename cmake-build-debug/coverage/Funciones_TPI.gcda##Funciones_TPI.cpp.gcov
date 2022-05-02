@@ -1,0 +1,163 @@
+        -:    0:Source:/Users/delficomerso/template-alumnos 2/Funciones_TPI.cpp
+        -:    0:Graph:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/Funciones_TPI.gcno
+        -:    0:Data:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/Funciones_TPI.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include <iostream>
+        -:    2:#include <vector>
+        -:    3:#include <tuple>
+        -:    4:#include <fstream>
+        -:    5:#include <cmath>
+        -:    6:#include <sstream>
+        -:    7:#include <string>
+        -:    8:#include <fstream>
+        -:    9:#include <ctype.h>
+        -:   10:
+        -:   11:#include "Funciones_TPI.h"
+        -:   12:
+        -:   13:using namespace std;
+        -:   14:
+function _Z15flotante_validofff called 0 returned 0% blocks executed 0%
+    #####:   15:bool flotante_valido(float valor_esperado, float valor_recibido, float umbral) {
+    $$$$$:   15-block  0
+    #####:   16:  return abs(valor_esperado - valor_recibido) < umbral;\
+    $$$$$:   16-block  0
+        -:   17:}
+        -:   18:
+        -:   19:
+function _Z14leerEncuestaIHNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE called 0 returned 0% blocks executed 0%
+    #####:   20:vector < vector < int > > leerEncuestaIH(string nombreArchivo) {
+    $$$$$:   20-block  0
+    #####:   21:  char sep = ','; // separador del csv
+    #####:   22:  ifstream miArchivo;
+    #####:   23:  vector < vector < int > > t;
+    #####:   24:  string line="";
+    $$$$$:   24-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   25:  miArchivo.open(nombreArchivo.c_str(), ifstream::in);
+    $$$$$:   25-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   26:  if ( miArchivo.is_open() ) {
+    $$$$$:   26-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   26-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:   27:    /*header:*/getline(miArchivo, line);
+    $$$$$:   27-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   28:    while ( getline(miArchivo, line) ) {
+    $$$$$:   28-block  0
+    $$$$$:   28-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   28-block  2
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   28-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   28-block  4
+    #####:   29:      vector<int> item;
+    #####:   30:      std::stringstream linestream(line);
+    $$$$$:   30-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   31:      std::string value;
+    #####:   32:      while ( getline(linestream, value, sep) ) {
+    $$$$$:   32-block  0
+    $$$$$:   32-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   32-block  2
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   32-block  3
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   32-block  4
+    #####:   33:        item.push_back(stoi(value));
+    $$$$$:   33-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   33-block  1
+branch  2 never executed
+branch  3 never executed
+        -:   34:      }
+    #####:   35:      t.push_back(item);
+    $$$$$:   35-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   36:    }
+    $$$$$:   36-block  0
+    $$$$$:   36-block  1
+    #####:   37:    miArchivo.close();
+    $$$$$:   37-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   38:  } else
+    $$$$$:   38-block  0
+    #####:   39:    cout << "No se pudo abrir el archivo " << nombreArchivo << endl;
+    $$$$$:   39-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   39-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   39-block  2
+branch  4 never executed
+branch  5 never executed
+    #####:   40:  return t;
+    #####:   41:}
+    $$$$$:   41-block  0
+    $$$$$:   41-block  1
+    $$$$$:   41-block  2
+    $$$$$:   41-block  3
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   41-block  4
+    $$$$$:   41-block  5
+    $$$$$:   41-block  6
+    $$$$$:   41-block  7
+    $$$$$:   41-block  8
+        -:   42:
+function _Z12leerEncuestaNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_6vectorINS6_IiNS3_IiEEEENS3_IS8_EEEESB_ called 0 returned 0% blocks executed 0%
+    #####:   43:void leerEncuesta ( string filename , eph_h & th, eph_i & ti ){
+    $$$$$:   43-block  0
+    #####:   44:  string path = "datos/";
+    #####:   45:  th = leerEncuestaIH(path+filename+".th");
+    $$$$$:   45-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   45-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   45-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   45-block  3
+    $$$$$:   45-block  4
+    #####:   46:  ti = leerEncuestaIH(path+filename+".ti");
+    $$$$$:   46-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   46-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   46-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   46-block  3
+    $$$$$:   46-block  4
+    #####:   47:}
+    $$$$$:   47-block  0
+    $$$$$:   47-block  1
+    $$$$$:   47-block  2
+    $$$$$:   47-block  3
+    $$$$$:   47-block  4
+    $$$$$:   47-block  5
+        -:   48:

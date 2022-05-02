@@ -1,0 +1,641 @@
+        -:    0:Source:/Users/delficomerso/template-alumnos 2/ejercicios.cpp
+        -:    0:Graph:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/ejercicios.gcno
+        -:    0:Data:/Users/delficomerso/template-alumnos 2/cmake-build-debug/CMakeFiles/tpi.dir/ejercicios.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "ejercicios.h"
+        -:    2:#include "auxiliares.h"
+        -:    3:#include "definiciones.h"
+        -:    4:
+        -:    5:
+        -:    6:using namespace std;
+        -:    7:// Implementacion Problema 1
+function _Z16esEncuestaValidaNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES5_ called 1 returned 100% blocks executed 74%
+        1:    8:bool esEncuestaValida ( eph_h th, eph_i ti ) {
+        2:    9:    return NoEsVacia(th)
+        1:    9-block  0
+        1:    9-block  1
+branch  0 taken 1
+branch  1 taken 0
+        1:    9-block  2
+branch  2 taken 1
+branch  3 taken 0
+        1:    9-block  3
+        1:    9-block  4
+branch  4 taken 1
+branch  5 taken 0
+        1:    9-block  5
+        1:    9-block  6
+branch  6 taken 1
+branch  7 taken 0
+        1:    9-block  7
+        1:    9-block  8
+    $$$$$:    9-block  9
+branch  8 never executed
+branch  9 never executed
+    $$$$$:    9-block 10
+    $$$$$:    9-block 11
+    $$$$$:    9-block 12
+branch 10 never executed
+branch 11 never executed
+    $$$$$:    9-block 13
+    $$$$$:    9-block 14
+    $$$$$:    9-block 15
+branch 12 never executed
+branch 13 never executed
+    $$$$$:    9-block 16
+    $$$$$:    9-block 17
+    $$$$$:    9-block 18
+    $$$$$:    9-block 19
+        1:   10:    && NoEsVacia(ti)
+        1:   10-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   10-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   10-block  2
+branch  4 taken 1
+branch  5 taken 0
+        1:   11:    && esMatriz(ti)
+        1:   11-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   11-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   12:    && esMatriz(th)
+        1:   12-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   12-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   13:    && cantCorrectaColumnasI(ti)
+        1:   13-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   13-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   14:    && cantCorrectaColumnasH (th)
+        1:   14-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   14-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   15:    && noHayIndividuosSinHogares(th,ti)
+        1:   15-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   15-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   16:    && noHayHogaresSinIndividuos(th,ti)
+        1:   16-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   16-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   17:    && noHayHogaresRepetidos(th)
+        1:   17-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   17-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   18:    && noHayIndividuosRepetidos(ti)
+        1:   18-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   18-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   19:    && mismoAñoTrimestre(th,ti)
+        1:   19-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   19-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   19-block  2
+branch  4 taken 1
+branch  5 taken 0
+        1:   19-block  3
+branch  6 taken 1
+branch  7 taken 0
+        1:   20:    && menos21Hab(th,ti)
+        1:   20-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   20-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   21:    && cantidadValidaDormitorios(th,ti)
+        1:   21-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   21-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   22:    && valoresIndRango(ti)
+        1:   22-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   22-block  1
+branch  2 taken 1
+branch  3 taken 0
+        1:   23:    && valoresHogRango(th);
+        1:   23-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:   23-block  1
+branch  2 taken 1
+branch  3 taken 0
+    #####:   24:}
+    $$$$$:   24-block  0
+    $$$$$:   24-block  1
+    $$$$$:   24-block  2
+        -:   25:
+        -:   26:// Implementacion Problema 2
+function _Z16histHabitacionalNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES5_i called 0 returned 0% blocks executed 0%
+    #####:   27:vector < int > histHabitacional ( eph_h th, eph_i ti, int region ) {
+    $$$$$:   27-block  0
+    #####:   28:    vector < int > res;
+    #####:   29:    for(int h=0;h<th.size();h++){
+    $$$$$:   29-block  0
+    $$$$$:   29-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   29-block  2
+    #####:   30:        if(enRegion(th[h],region)){
+    $$$$$:   30-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   30-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:   31:            int habitaciones = th[h][IV2];
+    #####:   32:            while(res.size()<habitaciones){ //largo
+    $$$$$:   32-block  0
+    $$$$$:   32-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   32-block  2
+    #####:   33:                res.push_back(0);
+    $$$$$:   33-block  0
+branch  0 never executed
+branch  1 never executed
+        -:   34:            }
+    #####:   35:            if(esCasa(th[h])){
+    $$$$$:   35-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   35-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:   36:                res[habitaciones-1]++;
+    #####:   37:            }
+    $$$$$:   37-block  0
+    #####:   38:        }
+    $$$$$:   38-block  0
+    #####:   39:    }
+    $$$$$:   39-block  0
+    #####:   40:    return res;
+    #####:   41:}
+    $$$$$:   41-block  0
+    $$$$$:   41-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   41-block  2
+    $$$$$:   41-block  3
+    $$$$$:   41-block  4
+        -:   42:
+        -:   43:// Implementacion Problema 3
+function _Z23laCasaEstaQuedandoChicaNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES5_ called 0 returned 0% blocks executed 0%
+    #####:   44:vector< pair < int, float > > laCasaEstaQuedandoChica ( eph_h th, eph_i ti ) {
+    $$$$$:   44-block  0
+    #####:   45:    vector<pair<int,float>> resp = {make_pair(1,-1.0),
+    #####:   46:                                    make_pair(40, -1.0),
+    #####:   47:                                    make_pair(41, -1.0),
+    #####:   48:                                    make_pair(42,-1.0),
+    #####:   49:                                    make_pair(43,-1.0),
+    #####:   50:                                    make_pair(44,-1.0)};
+    #####:   51:    for(int i=0;i<resp.size();i++){
+    $$$$$:   51-block  0
+    $$$$$:   51-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   51-block  2
+    #####:   52:        dato region = resp[i].first;
+    #####:   53:        int total =0;
+    #####:   54:        int hogarConHC =0;
+    #####:   55:        for(int h=0; h<th.size();h++){
+    $$$$$:   55-block  0
+    $$$$$:   55-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   55-block  2
+    #####:   56:            if (hogarValido(th[h],region)){
+    $$$$$:   56-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   56-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:   57:                total=total+1;
+    #####:   58:                if(hogarHC(th[h],ti)){
+    $$$$$:   58-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   58-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:   59:                    hogarConHC=hogarConHC+1;
+    #####:   60:                }
+    $$$$$:   60-block  0
+    #####:   61:            }
+    $$$$$:   61-block  0
+    #####:   62:        }
+    $$$$$:   62-block  0
+    #####:   63:        if(total==0){
+    $$$$$:   63-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   64:            resp[i].second=0;
+    #####:   65:        }else{
+    $$$$$:   65-block  0
+    #####:   66:            resp[i].second =float(hogarConHC)/float(total);
+    $$$$$:   66-block  0
+        -:   67:        }
+    #####:   68:    }
+    $$$$$:   68-block  0
+    #####:   69:    return resp;
+    #####:   70:}
+    $$$$$:   70-block  0
+    $$$$$:   70-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   70-block  2
+    $$$$$:   70-block  3
+    $$$$$:   70-block  4
+        -:   71:
+        -:   72:// Implementacion Problema 4
+function _Z35creceElTeleworkingEnCiudadesGrandesNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES5_S5_S5_ called 0 returned 0% blocks executed 0%
+    #####:   73:bool creceElTeleworkingEnCiudadesGrandes( eph_h t1h, eph_i t1i, eph_h t2h, eph_i t2i ) {
+    #####:   74:    return proporcionTeleworking(t2h,t2i)>proporcionTeleworking(t1h,t1i);
+    $$$$$:   74-block  0
+    $$$$$:   74-block  1
+        -:   75:}
+        -:   76:
+        -:   77:// Implementacion Problema 5
+function _Z19costoSubsidioMejoraNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES5_i called 0 returned 0% blocks executed 0%
+    #####:   78:int costoSubsidioMejora( eph_h th, eph_i ti, int monto ){
+    $$$$$:   78-block  0
+    #####:   79:    int resp =0;
+    #####:   80:    for(int h=0;h<th.size();h++){
+    $$$$$:   80-block  0
+    $$$$$:   80-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   80-block  2
+    #####:   81:        if(th[h][II7]==1 && casaChica(th[h],ti)){
+    $$$$$:   81-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   81-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   81-block  2
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   81-block  3
+    $$$$$:   81-block  4
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   81-block  5
+branch  8 never executed
+branch  9 never executed
+    $$$$$:   81-block  6
+    $$$$$:   81-block  7
+    $$$$$:   81-block  8
+    #####:   82:            resp=resp+monto;
+    #####:   83:        }
+    $$$$$:   83-block  0
+    #####:   84:    }
+    $$$$$:   84-block  0
+    #####:   85:    return  resp;
+    $$$$$:   85-block  0
+    #####:   86:}
+        -:   87:
+        -:   88:// Implementacion Problema 6
+function _Z11generarJoinNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES5_ called 0 returned 0% blocks executed 0%
+    #####:   89:join_hi generarJoin( eph_h th, eph_i ti ){
+    $$$$$:   89-block  0
+    #####:   90:    join_hi resp;
+    #####:   91:    for(int h=0;h<th.size();h++){
+    $$$$$:   91-block  0
+    $$$$$:   91-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   91-block  2
+    #####:   92:        for(int i=0;i<ti.size();i++){
+    $$$$$:   92-block  0
+    $$$$$:   92-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   92-block  2
+    #####:   93:            if(ti[i][INDCODUSU]==th[h][HOGCODUSU]){
+    $$$$$:   93-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   94:                resp.push_back(make_pair(th[h],ti[i]));
+    $$$$$:   94-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   94-block  1
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   94-block  2
+    #####:   95:            }
+    $$$$$:   95-block  0
+    #####:   96:        }
+    $$$$$:   96-block  0
+    #####:   97:    }
+    $$$$$:   97-block  0
+    #####:   98:    return  resp;
+    #####:   99:}
+    $$$$$:   99-block  0
+    $$$$$:   99-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   99-block  2
+    $$$$$:   99-block  3
+    $$$$$:   99-block  4
+    $$$$$:   99-block  5
+        -:  100:
+        -:  101:// Implementacion Problema 7
+function _Z20ordenarRegionYCODUSURNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES6_ called 0 returned 0% blocks executed 0%
+    #####:  102:void ordenarRegionYCODUSU (eph_h & th, eph_i & ti) {
+    $$$$$:  102-block  0
+    #####:  103:    ordenarHogares(th);
+    #####:  104:    for(int i=0;i<ti.size();i++) {
+    $$$$$:  104-block  0
+    $$$$$:  104-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  104-block  2
+    #####:  105:        for (int j=ti.size()-1;j>i;j--) {
+    $$$$$:  105-block  0
+    $$$$$:  105-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  105-block  2
+    #####:  106:            if(indiceEnTablaHogares(ti[j],th)<indiceEnTablaHogares(ti[j-1],th)||
+    $$$$$:  106-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  106-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  107:            (indiceEnTablaHogares(ti[j],th)==indiceEnTablaHogares(ti[j-1],th)&&ti[j][COMPONENTE]<ti[j-1][COMPONENTE])){
+    $$$$$:  107-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  108:                swap(ti[j],ti[j-1]);
+    #####:  109:            }
+    $$$$$:  109-block  0
+    #####:  110:        }
+    $$$$$:  110-block  0
+    #####:  111:    }
+    $$$$$:  111-block  0
+    #####:  112:}
+    $$$$$:  112-block  0
+        -:  113:
+        -:  114:// Implementacion Problema 8
+function _Z16muestraHomogeneaRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES6_ called 1 returned 100% blocks executed 65%
+        1:  115:vector < hogar > muestraHomogenea( eph_h & th, eph_i & ti ){
+        1:  115-block  0
+        1:  116:    vector <hogar> resp;
+        1:  117:    vector<int> ingresosHogares= ingresosPorHogar(th,ti);
+        1:  117-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:  118:    ordenarPorIngresos(th,ingresosHogares);
+        1:  118-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:  119:    vector<int> muestra= buscarMuestra(ingresosHogares);
+        1:  119-block  0
+branch  0 taken 1
+branch  1 taken 0
+        4:  120:    for(int i=0;i<muestra.size();i++){
+        1:  120-block  0
+        4:  120-block  1
+branch  0 taken 3
+branch  1 taken 1
+        3:  120-block  2
+        3:  121:        resp.push_back(th[muestra[i]]);
+        3:  121-block  0
+branch  0 taken 3
+branch  1 taken 0
+        3:  122:    }
+        3:  122-block  0
+        1:  123:    return resp.size() >= 3 ? resp : vector<hogar>{}; //si largo de resp es >= 3 entrego resp, sino vector vacio
+        1:  123-block  0
+branch  0 taken 1
+branch  1 taken 0
+        1:  123-block  1
+branch  2 taken 0
+branch  3 taken 1
+        1:  123-block  2
+    $$$$$:  123-block  3
+        1:  124:}
+    $$$$$:  124-block  0
+    $$$$$:  124-block  1
+    $$$$$:  124-block  2
+        1:  124-block  3
+    $$$$$:  124-block  4
+    $$$$$:  124-block  5
+    $$$$$:  124-block  6
+        -:  125:
+        -:  126:// Implementacion Problema 9
+function _Z14corregirRegionRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES5_ called 0 returned 0% blocks executed 0%
+    #####:  127:void corregirRegion( eph_h & th, eph_i ti ) {
+    $$$$$:  127-block  0
+    #####:  128:    for(int h=0;h<th.size();h++){
+    $$$$$:  128-block  0
+    $$$$$:  128-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  128-block  2
+    #####:  129:        if(th[h][REGION]==GBA){
+    $$$$$:  129-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  130:            th[h][REGION]=PAMPEANA;
+    #####:  131:        }
+    $$$$$:  131-block  0
+    #####:  132:    }
+    $$$$$:  132-block  0
+    #####:  133:}
+    $$$$$:  133-block  0
+        -:  134:
+        -:  135:// Implementacion Problema 10
+function _Z31histogramaDeAnillosConcentricosNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES5_NS_4pairIiiEES3_ called 0 returned 0% blocks executed 0%
+    #####:  136:vector < int > histogramaDeAnillosConcentricos( eph_h th, eph_i ti, pair < int, int > centro, vector < int > distancias ){
+    $$$$$:  136-block  0
+    #####:  137:    vector < int > res={};
+    #####:  138:    for(int i=0;i<distancias.size();i++){
+    $$$$$:  138-block  0
+    $$$$$:  138-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  138-block  2
+    #####:  139:        int j=0;
+    #####:  140:        int desde=i== 0 ? 0 : distancias[i - 1]; //si i==0 desde=0, sino desde=distancias[i-1]
+    $$$$$:  140-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  140-block  1
+    $$$$$:  140-block  2
+    #####:  141:        int hasta=distancias[i];
+    #####:  142:        for(int h=0;h<th.size();h++){
+    $$$$$:  142-block  0
+    $$$$$:  142-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  142-block  2
+    #####:  143:            pair<int,int> posicion= make_pair(th[h][HOGLATITUD],th[h][HOGLONGITUD]);
+    $$$$$:  143-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  144:            if(hogarEnAnillo(desde,hasta,centro,posicion)){
+    $$$$$:  144-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  144-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  145:                j++;
+    #####:  146:            }
+    $$$$$:  146-block  0
+    #####:  147:        }
+    $$$$$:  147-block  0
+    #####:  148:        res.push_back(j);
+    $$$$$:  148-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  149:    }
+    $$$$$:  149-block  0
+    #####:  150:    return res;
+    #####:  151:}
+    $$$$$:  151-block  0
+    $$$$$:  151-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  151-block  2
+    $$$$$:  151-block  3
+    $$$$$:  151-block  4
+        -:  152:
+        -:  153:// Implementacion Problema 11
+function _Z16quitarIndividuosRNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEEES6_NS0_INS_4pairIiiEENS1_IS8_EEEE called 0 returned 0% blocks executed 0%
+    #####:  154:pair < eph_h, eph_i > quitarIndividuos(eph_i & ti, eph_h & th, vector < pair < int, dato > >  busqueda ){
+    $$$$$:  154-block  0
+    #####:  155:    eph_h rth = {};
+    #####:  156:    eph_i rti = {};
+    #####:  157:    pair<eph_h, eph_i> res = make_pair(rth, rti);
+    $$$$$:  157-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  158:
+    #####:  159:    eph_i ti0 = ti;
+    $$$$$:  159-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  160:    eph_h th0= th;
+    $$$$$:  160-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  161:
+    #####:  162:    for(int i=0;i<ti0.size();i++){
+    $$$$$:  162-block  0
+    $$$$$:  162-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  162-block  2
+    #####:  163:        if(indCoincide(ti0[i],busqueda)){
+    $$$$$:  163-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  163-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  164:            if (indiceEnTablaHogares(ti0[i],res.first)==-1){
+    $$$$$:  164-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  164-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  165:                res.first.push_back(th[indiceEnTablaHogares(ti0[i], th)]);
+    $$$$$:  165-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  165-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  166:            }
+    $$$$$:  166-block  0
+    #####:  167:            res.second.push_back(ti[i]);
+    $$$$$:  167-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  168:            ti.erase(ti.begin() + i - res.second.size() + 1);
+    $$$$$:  168-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  169:        }
+    $$$$$:  169-block  0
+    #####:  170:    }
+    $$$$$:  170-block  0
+    #####:  171:    int cant_borrados = 0;
+    #####:  172:    for (int h=0;h<th0.size();h++) {
+    $$$$$:  172-block  0
+    $$$$$:  172-block  1
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  172-block  2
+    #####:  173:        if(cantidadHabitantes(ti,th0[h])==0) {
+    $$$$$:  173-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  173-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  174:            th.erase(th.begin() + h - cant_borrados);
+    $$$$$:  174-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  175:            cant_borrados++;
+    #####:  176:        }
+    $$$$$:  176-block  0
+    #####:  177:    }
+    $$$$$:  177-block  0
+    #####:  178:    return res;
+    #####:  179:}
+    $$$$$:  179-block  0
+    $$$$$:  179-block  1
+    $$$$$:  179-block  2
+    $$$$$:  179-block  3
+    $$$$$:  179-block  4
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  179-block  5
+    $$$$$:  179-block  6
+    $$$$$:  179-block  7
+    $$$$$:  179-block  8
+    $$$$$:  179-block  9
+    $$$$$:  179-block 10
